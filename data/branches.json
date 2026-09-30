@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T06:42:17.203Z",
+  "generatedAt": "2026-09-30T13:41:44.067Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47100,
+      "stars": 47099,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6295,
+      "stars": 6300,
       "sourceUpdatedAt": "2026-09-30T06:21:01Z",
       "githubArchived": false,
       "release": {
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2777,
+      "stars": 2780,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -156,7 +156,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2185,
+      "stars": 2186,
       "sourceUpdatedAt": "2026-09-14T14:44:30Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1334,
+      "stars": 1339,
       "sourceUpdatedAt": "2026-09-28T06:11:29Z",
       "githubArchived": false,
       "release": {
@@ -232,7 +232,7 @@
       "tag": "archive",
       "repo": "Rimchars/legado",
       "term": "legado-branch-archive",
-      "stars": 576,
+      "stars": 577,
       "sourceUpdatedAt": "2026-09-24T15:32:04Z",
       "githubArchived": false,
       "release": {
@@ -463,69 +463,69 @@
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
       "stars": 252,
-      "sourceUpdatedAt": "2026-09-30T06:39:00Z",
+      "sourceUpdatedAt": "2026-09-30T12:23:22Z",
       "githubArchived": false,
       "release": {
-        "name": "3.26.09301356",
+        "name": "3.26.09302003",
         "tagName": "beta",
         "prerelease": true,
-        "publishedAt": "2026-09-30T06:11:22Z",
-        "createdAt": "2026-09-30T05:56:12Z",
-        "body": "## 更新日志\n- ci(ios): 新增 VNC 远程会话工作流, 移除模拟器冒烟档                       (ba059a3ff)\n- fix(security): 禁止 JS 改写 enableDangerousApi 堵住书源自提权            (39521cd17)\n- perf(string): 去除判定型 trim 的整串副本与逐次正则编译                   (ce3eeac75)\n- fix(debug): 去掉查看源码弹窗的耗时前缀                                   (f7a90c625)",
+        "publishedAt": "2026-09-30T12:23:22Z",
+        "createdAt": "2026-09-30T09:17:18Z",
+        "body": "## 更新日志\n- ci(ios): 新增 simulator 独立 stage 并脱离 release 流水线                 (75f5e3e75)\n- docs(read): 修正排版缓存并发域注释                                       (7868750d9)\n- fix(ios): 修复预下载调度遍历并发修改崩溃                                 (52e9fa535)",
         "assets": [
           {
             "name": "all.apk",
-            "size": 17350924,
+            "size": 17367304,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all.apk"
           },
           {
             "name": "all_releaseA.apk",
-            "size": 17350924,
+            "size": 17367308,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all_releaseA.apk"
           },
           {
             "name": "arm64.apk",
-            "size": 10283913,
+            "size": 10300293,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64.apk"
           },
           {
             "name": "arm64_releaseA.apk",
-            "size": 10283913,
+            "size": 10300297,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64_releaseA.apk"
           },
           {
             "name": "armv7.apk",
-            "size": 9569499,
+            "size": 9585879,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7.apk"
           },
           {
             "name": "armv7_releaseA.apk",
-            "size": 9569499,
+            "size": 9585883,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7_releaseA.apk"
           },
           {
             "name": "linux_x64.deb",
-            "size": 98907670,
+            "size": 98922632,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.deb"
           },
           {
             "name": "linux_x64.rpm",
-            "size": 105681856,
+            "size": 105690576,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.rpm"
           },
           {
             "name": "macos_arm64.dmg",
-            "size": 110367336,
+            "size": 110426352,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/macos_arm64.dmg"
           },
           {
             "name": "windows_x64.msi",
-            "size": 101470928,
+            "size": 101479120,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64.msi"
           },
           {
             "name": "windows_x64_portable.zip",
-            "size": 100250684,
+            "size": 100254680,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64_portable.zip"
           }
         ]
@@ -616,7 +616,7 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 111,
+      "stars": 112,
       "sourceUpdatedAt": "2026-09-25T17:55:57Z",
       "githubArchived": false,
       "release": {
@@ -910,25 +910,25 @@
       "allowNoRelease": true,
       "note": "预备观察，未达收录标准，仅防跑路备份，不展示不计数。",
       "stars": 4,
-      "sourceUpdatedAt": "2026-09-26T02:41:46Z",
+      "sourceUpdatedAt": "2026-09-30T13:36:55Z",
       "githubArchived": false,
       "release": {
-        "name": "Legado MD3 v3.30.0-20260925-015218 (预发布)",
-        "tagName": "v3.30.0-20260925-015218",
-        "prerelease": true,
-        "publishedAt": "2026-09-25T01:52:21Z",
-        "createdAt": "2026-09-25T01:44:07Z",
-        "body": "## Legado MD3 自动构建\n\n- 提交: a7268234f159852b438fbc66212163031e576418\n- 分支: main\n\n### 下载\n- `app-universal-release.apk` - 通用版（支持所有架构）\n- `app-arm64-release.apk` - arm64专用版（更小）\n\n> 此为自动构建的预发布版本。\n",
+        "name": "Legado MD3 v1.0.0 正式版",
+        "tagName": "v1.0.0",
+        "prerelease": false,
+        "publishedAt": "2026-09-30T13:36:00Z",
+        "createdAt": "2026-09-30T13:21:00Z",
+        "body": "## Legado MD3 v1.0.0 正式版\n\n- 提交: 8f0a6a8a762d141aac461dfbac9ad2bc162fd4c7\n- 框架: Flutter 3.24（Android / iOS 双端）\n\n### Android 下载\n- `app-universal-release.apk` — 通用包（所有架构）\n- `app-arm64-release.apk` — arm64 专用（体积更小）\n\n### iOS\niOS 端由 CI 在 macOS 上编译校验并产出未签名 `Runner.app`（见本次构建的 Artifacts）。\n安装到 iPhone 或上架 App Store 需在 macOS + Xcode 中配置 Apple 开发者签名后归档。\n\n> 本项目基于 GPL-3.0 开源。\n",
         "assets": [
           {
             "name": "app-arm64-release.apk",
-            "size": 24446771,
-            "browserDownloadUrl": "https://github.com/stwy0716/legado-K/releases/download/v3.30.0-20260925-015218/app-arm64-release.apk"
+            "size": 24089457,
+            "browserDownloadUrl": "https://github.com/stwy0716/legado-Klys/releases/download/v1.0.0/app-arm64-release.apk"
           },
           {
             "name": "app-universal-release.apk",
-            "size": 42929706,
-            "browserDownloadUrl": "https://github.com/stwy0716/legado-K/releases/download/v3.30.0-20260925-015218/app-universal-release.apk"
+            "size": 42362307,
+            "browserDownloadUrl": "https://github.com/stwy0716/legado-Klys/releases/download/v1.0.0/app-universal-release.apk"
           }
         ]
       },
@@ -965,7 +965,7 @@
           },
           {
             "name": "阅读_magisk_3.26.092723.zip",
-            "size": 22644170,
+            "size": null,
             "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.092723/%E9%98%85%E8%AF%BB_magisk_3.26.092723.zip"
           },
           {
