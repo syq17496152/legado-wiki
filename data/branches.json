@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T00:25:48.269Z",
+  "generatedAt": "2026-09-30T06:42:17.203Z",
   "branches": [
     {
       "id": "c",
@@ -9,7 +9,7 @@
       "term": "legado-branch-c",
       "pinned": true,
       "note": "站长开发。",
-      "stars": 154,
+      "stars": 153,
       "sourceUpdatedAt": "2026-09-27T07:43:33Z",
       "githubArchived": false,
       "release": {
@@ -44,7 +44,7 @@
           "name": "CCSSNE/legado",
           "repo": "CCSSNE/legado",
           "url": "https://github.com/CCSSNE/legado",
-          "stars": 20,
+          "stars": 21,
           "updatedAt": "2026-08-11T01:49:32Z"
         }
       ],
@@ -85,8 +85,8 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6290,
-      "sourceUpdatedAt": "2026-09-28T21:09:05Z",
+      "stars": 6295,
+      "sourceUpdatedAt": "2026-09-30T06:21:01Z",
       "githubArchived": false,
       "release": {
         "name": "Pre-release 3.26.16-beta.41",
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2778,
+      "stars": 2777,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1331,
+      "stars": 1334,
       "sourceUpdatedAt": "2026-09-28T06:11:29Z",
       "githubArchived": false,
       "release": {
@@ -232,7 +232,7 @@
       "tag": "archive",
       "repo": "Rimchars/legado",
       "term": "legado-branch-archive",
-      "stars": 573,
+      "stars": 576,
       "sourceUpdatedAt": "2026-09-24T15:32:04Z",
       "githubArchived": false,
       "release": {
@@ -266,7 +266,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 372,
+      "stars": 374,
       "sourceUpdatedAt": "2026-09-29T17:46:18Z",
       "githubArchived": false,
       "release": {
@@ -463,69 +463,69 @@
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
       "stars": 252,
-      "sourceUpdatedAt": "2026-09-29T19:45:36Z",
+      "sourceUpdatedAt": "2026-09-30T06:39:00Z",
       "githubArchived": false,
       "release": {
-        "name": "3.26.09300327",
+        "name": "3.26.09301356",
         "tagName": "beta",
         "prerelease": true,
-        "publishedAt": "2026-09-29T19:45:37Z",
-        "createdAt": "2026-09-29T19:09:37Z",
-        "body": "## 更新日志\n- feat(debug): 调试日志支持 showTime 开关                                  (786a702b7)\n- build(ci): 测试发布改用 secrets 注入正式签名密钥                         (d7b4721c8)\n- feat(ui): JSON 树条目可查看子树并就地聚焦                                (27976235c)\n- fix(js): 拆除书源JS包装器, evalJS直绑源实例恢复全成员访问                (59683b90d)\n- fix(association): 修外部打开与深链导入报格式不对, file:// 读取下沉到入口 (b0cdcc3c5)\n- feat(video): 视频播放支持系统画中画                                      (f1218ccd5)\n- feat(toolbox): 新增书源工具箱页面, 支持请求/规则/JS 调试                 (b06abd2d6)\n- fix(desktop): 修复 debug 运行任务栏图标丢失                              (9ea88f55d)\n- chore(app): 收录真机基线轮廓, 46259 条规则                               (a05833e57)\n- refactor(build): 内嵌库 rjpath 移出 foundation 独立成模块                (4915aaaa6)\n- feat(ui): 书源调试源码可树形查看并长按复制 JSONPath                      (9758f6960)\n- fix(ui): 日志文本选区提升至列表级支持跨行拖选                            (9f3eba21f)",
+        "publishedAt": "2026-09-30T06:11:22Z",
+        "createdAt": "2026-09-30T05:56:12Z",
+        "body": "## 更新日志\n- ci(ios): 新增 VNC 远程会话工作流, 移除模拟器冒烟档                       (ba059a3ff)\n- fix(security): 禁止 JS 改写 enableDangerousApi 堵住书源自提权            (39521cd17)\n- perf(string): 去除判定型 trim 的整串副本与逐次正则编译                   (ce3eeac75)\n- fix(debug): 去掉查看源码弹窗的耗时前缀                                   (f7a90c625)",
         "assets": [
           {
             "name": "all.apk",
-            "size": 17367308,
+            "size": 17350924,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all.apk"
           },
           {
             "name": "all_releaseA.apk",
-            "size": 17367308,
+            "size": 17350924,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all_releaseA.apk"
           },
           {
             "name": "arm64.apk",
-            "size": 10300297,
+            "size": 10283913,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64.apk"
           },
           {
             "name": "arm64_releaseA.apk",
-            "size": 10300297,
+            "size": 10283913,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64_releaseA.apk"
           },
           {
             "name": "armv7.apk",
-            "size": 9585883,
+            "size": 9569499,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7.apk"
           },
           {
             "name": "armv7_releaseA.apk",
-            "size": 9585883,
+            "size": 9569499,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7_releaseA.apk"
           },
           {
             "name": "linux_x64.deb",
-            "size": 98943624,
+            "size": 98907670,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.deb"
           },
           {
             "name": "linux_x64.rpm",
-            "size": 105680691,
+            "size": 105681856,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.rpm"
           },
           {
             "name": "macos_arm64.dmg",
-            "size": 110412356,
+            "size": 110367336,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/macos_arm64.dmg"
           },
           {
             "name": "windows_x64.msi",
-            "size": 101475024,
+            "size": 101470928,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64.msi"
           },
           {
             "name": "windows_x64_portable.zip",
-            "size": 100250057,
+            "size": 100250684,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64_portable.zip"
           }
         ]
@@ -616,7 +616,7 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 109,
+      "stars": 111,
       "sourceUpdatedAt": "2026-09-25T17:55:57Z",
       "githubArchived": false,
       "release": {
