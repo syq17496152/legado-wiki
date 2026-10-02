@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T15:47:52.997Z",
+  "generatedAt": "2026-10-02T20:43:43.987Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47104,
+      "stars": 47103,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,36 +85,36 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6317,
-      "sourceUpdatedAt": "2026-10-02T15:13:52Z",
+      "stars": 6318,
+      "sourceUpdatedAt": "2026-10-02T17:31:41Z",
       "githubArchived": false,
       "release": {
-        "name": "Pre-release 3.26.16-beta.43",
-        "tagName": "3.26.16-beta.43",
+        "name": "Pre-release 3.26.16-beta.44",
+        "tagName": "3.26.16-beta.44",
         "prerelease": true,
-        "publishedAt": "2026-10-02T15:13:41Z",
-        "createdAt": "2026-10-02T14:57:10Z",
-        "body": "**此版本为测试版，会存在不稳定问题。**\n### [发布页](https://t.me/materado)\n### [反馈群组](https://t.me/+Yn1_v5PZqddmMjQ1)\n\n### 更新内容\n\n* feat: 神秘之优化\n* feat: 朗读之偶然崩溃问题\n* feat: 动画之问题\n* feat: 阅读菜单的云端进度选项不显示的问题\n* feat: 性能之优化\n* feat: 动画之优化\n* feat: 选择模式增加删除之",
+        "publishedAt": "2026-10-02T17:31:28Z",
+        "createdAt": "2026-10-02T17:17:59Z",
+        "body": "**此版本为测试版，会存在不稳定问题。**\n### [发布页](https://t.me/materado)\n### [反馈群组](https://t.me/+Yn1_v5PZqddmMjQ1)\n\n### 更新内容\n\n* feat: 一直发beta好舒服啊\n* feat: 朗读的另外一个崩溃问题",
         "assets": [
           {
-            "name": "legado-3.26.16-beta.43-arm64-v8a.apk",
-            "size": 20122410,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.16-beta.43/legado-3.26.16-beta.43-arm64-v8a.apk"
+            "name": "legado-3.26.16-beta.44-arm64-v8a.apk",
+            "size": 20117877,
+            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.16-beta.44/legado-3.26.16-beta.44-arm64-v8a.apk"
           },
           {
-            "name": "legado-3.26.16-beta.43-armeabi-v7a.apk",
-            "size": 19662223,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.16-beta.43/legado-3.26.16-beta.43-armeabi-v7a.apk"
+            "name": "legado-3.26.16-beta.44-armeabi-v7a.apk",
+            "size": 19657704,
+            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.16-beta.44/legado-3.26.16-beta.44-armeabi-v7a.apk"
           },
           {
-            "name": "legado-3.26.16-beta.43.apk",
-            "size": 26694901,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.16-beta.43/legado-3.26.16-beta.43.apk"
+            "name": "legado-3.26.16-beta.44.apk",
+            "size": 26690388,
+            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.16-beta.44/legado-3.26.16-beta.44.apk"
           },
           {
             "name": "mapping.txt",
-            "size": 279331924,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.16-beta.43/mapping.txt"
+            "size": 279444502,
+            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.16-beta.44/mapping.txt"
           }
         ]
       },
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2794,
+      "stars": 2796,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1358,
+      "stars": 1359,
       "sourceUpdatedAt": "2026-09-28T06:11:29Z",
       "githubArchived": false,
       "release": {
@@ -806,7 +806,7 @@
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
       "stars": 15,
-      "sourceUpdatedAt": "2026-10-02T03:21:50Z",
+      "sourceUpdatedAt": "2026-10-02T16:19:11Z",
       "githubArchived": false,
       "release": {
         "name": "Pre-release 3.26.17-beta.22",
@@ -946,7 +946,7 @@
           },
           {
             "name": "阅读_magisk_3.26.092723.zip",
-            "size": null,
+            "size": 22644170,
             "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.092723/%E9%98%85%E8%AF%BB_magisk_3.26.092723.zip"
           },
           {
