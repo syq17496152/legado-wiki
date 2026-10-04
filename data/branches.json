@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T23:02:17.725Z",
+  "generatedAt": "2026-10-04T02:37:08.034Z",
   "branches": [
     {
       "id": "c",
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6339,
+      "stars": 6340,
       "sourceUpdatedAt": "2026-10-02T17:31:41Z",
       "githubArchived": false,
       "release": {
@@ -156,7 +156,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2191,
+      "stars": 2192,
       "sourceUpdatedAt": "2026-09-14T14:44:30Z",
       "githubArchived": false,
       "release": {
