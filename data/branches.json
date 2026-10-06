@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T07:33:20.717Z",
+  "generatedAt": "2026-10-06T15:09:40.246Z",
   "branches": [
     {
       "id": "c",
@@ -9,7 +9,7 @@
       "term": "legado-branch-c",
       "pinned": true,
       "note": "站长开发。",
-      "stars": 158,
+      "stars": 160,
       "sourceUpdatedAt": "2026-10-05T07:33:42Z",
       "githubArchived": false,
       "release": {
@@ -44,7 +44,7 @@
           "name": "CCSSNE/legado",
           "repo": "CCSSNE/legado",
           "url": "https://github.com/CCSSNE/legado",
-          "stars": 27,
+          "stars": 28,
           "updatedAt": "2026-08-11T01:49:32Z"
         }
       ],
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47117,
+      "stars": 47114,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6376,
+      "stars": 6384,
       "sourceUpdatedAt": "2026-10-05T07:08:43Z",
       "githubArchived": false,
       "release": {
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2817,
+      "stars": 2819,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -156,7 +156,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2195,
+      "stars": 2194,
       "sourceUpdatedAt": "2026-09-14T14:44:30Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1399,
+      "stars": 1401,
       "sourceUpdatedAt": "2026-10-05T15:13:38Z",
       "githubArchived": false,
       "release": {
@@ -232,7 +232,7 @@
       "tag": "archive",
       "repo": "Rimchars/legado",
       "term": "legado-branch-archive",
-      "stars": 599,
+      "stars": 600,
       "sourceUpdatedAt": "2026-09-24T15:32:04Z",
       "githubArchived": false,
       "release": {
@@ -266,7 +266,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 382,
+      "stars": 383,
       "sourceUpdatedAt": "2026-10-05T16:52:10Z",
       "githubArchived": false,
       "release": {
@@ -369,7 +369,7 @@
       "term": "legado-branch-max",
       "note": "原版 MAX 已宣布不再维护，家族各分支独立发版。",
       "manualAbandoned": "作者已声明不再维护",
-      "stars": 278,
+      "stars": 277,
       "sourceUpdatedAt": "2026-06-18T16:23:25Z",
       "githubArchived": true,
       "release": {
@@ -425,7 +425,7 @@
         "tag": "v0.9.9-20260528195115-b00000093"
       },
       "manualAbandoned": "作者声明删除仓库，停止维护",
-      "stars": 270,
+      "stars": 269,
       "sourceUpdatedAt": "2026-05-28T13:26:20Z",
       "githubArchived": false,
       "release": {
@@ -462,7 +462,7 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 258,
+      "stars": 260,
       "sourceUpdatedAt": "2026-10-03T08:55:56Z",
       "githubArchived": false,
       "release": {
