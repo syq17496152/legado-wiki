@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:49:31.405Z",
+  "generatedAt": "2026-10-06T07:33:20.717Z",
   "branches": [
     {
       "id": "c",
@@ -44,7 +44,7 @@
           "name": "CCSSNE/legado",
           "repo": "CCSSNE/legado",
           "url": "https://github.com/CCSSNE/legado",
-          "stars": 26,
+          "stars": 27,
           "updatedAt": "2026-08-11T01:49:32Z"
         }
       ],
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47114,
+      "stars": 47117,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6369,
+      "stars": 6376,
       "sourceUpdatedAt": "2026-10-05T07:08:43Z",
       "githubArchived": false,
       "release": {
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2814,
+      "stars": 2817,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1397,
+      "stars": 1399,
       "sourceUpdatedAt": "2026-10-05T15:13:38Z",
       "githubArchived": false,
       "release": {
@@ -232,7 +232,7 @@
       "tag": "archive",
       "repo": "Rimchars/legado",
       "term": "legado-branch-archive",
-      "stars": 598,
+      "stars": 599,
       "sourceUpdatedAt": "2026-09-24T15:32:04Z",
       "githubArchived": false,
       "release": {
@@ -462,7 +462,7 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 257,
+      "stars": 258,
       "sourceUpdatedAt": "2026-10-03T08:55:56Z",
       "githubArchived": false,
       "release": {
@@ -761,35 +761,35 @@
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
       "stars": 16,
-      "sourceUpdatedAt": "2026-10-05T16:29:15Z",
+      "sourceUpdatedAt": "2026-10-06T04:44:44Z",
       "githubArchived": false,
       "release": {
-        "name": "Pre-release 3.26.17-beta.25",
-        "tagName": "3.26.17-beta.25",
+        "name": "Pre-release 3.26.17-beta.26",
+        "tagName": "3.26.17-beta.26",
         "prerelease": true,
-        "publishedAt": "2026-10-04T09:19:32Z",
-        "createdAt": "2026-10-04T04:45:15Z",
-        "body": "**此版本为测试版，会存在不稳定问题。**\n\n# 更新日志\n\n墨本阅读——开源阅读 legado 的墨水屏增强发行版：同一本书，两种读法。\n\n## 3.26.17-beta（预发布）\n\n本次更新为墨水屏模式新增阅读正文简繁转换，并修复恢复备份与批量导入的两处问题。\n\n### 新增\n\n* 墨水屏模式：阅读正文支持简繁转换——在「排版 → 字体配置」中选择 关闭/繁转简/简转繁，点选后正文立即切换；与完整模式里同一个设置互通，改哪边两边都生效\n\n### 修复\n\n* 恢复备份：从备份恢复时，同一本书不再因为来源不同被重复添加成多本；在一台设备上换过源的书，恢复到其他设备后仍保持换源后的结果\n* 完整模式：修复一次性导入大量书籍（几千本）时可能闪退的问题",
+        "publishedAt": "2026-10-06T04:44:34Z",
+        "createdAt": "2026-10-06T03:52:25Z",
+        "body": "**此版本为测试版，会存在不稳定问题。**\n\n# 更新日志\n\n墨本阅读——开源阅读 legado 的墨水屏增强发行版：同一本书，两种读法。\n\n## 3.26.17-beta（预发布）\n\n本次更新为墨水屏模式优化了换源与字体选择列表，并新增汉王设备后台免疫模块（需 LSPosed）。\n\n### 新增\n\n* 墨水屏模式：换源列表第一位常驻当前书源——打开换源即可看到当前正在使用的书源（带「当前源」标记），重新搜索也不会消失；点击它会提示已是当前书源，搜索结果中也不再重复出现当前书源\n* 墨水屏模式：字体选择列表所见即所得——列表中每个字体都用它自己的字形显示名称和一段中英文示例文字，选中项有醒目的标记；列表按名称排序，更容易比较和找到想要的字体\n* 墨水屏模式：应用内置 LSPosed 模块「墨本阅读」——汉王设备上配合 LSPosed 启用本模块（作用域勾选 设置 + 桌面，重启后生效），回到桌面应用不再被桌面强制清理后台",
         "assets": [
           {
             "name": "mapping.txt",
-            "size": 290980057,
-            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.25/mapping.txt"
+            "size": 291119077,
+            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.26/mapping.txt"
           },
           {
-            "name": "moben-3.26.17-beta.25-arm64-v8a.apk",
-            "size": 20481202,
-            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.25/moben-3.26.17-beta.25-arm64-v8a.apk"
+            "name": "moben-3.26.17-beta.26-arm64-v8a.apk",
+            "size": 20482228,
+            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.26/moben-3.26.17-beta.26-arm64-v8a.apk"
           },
           {
-            "name": "moben-3.26.17-beta.25-armeabi-v7a.apk",
-            "size": 20021022,
-            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.25/moben-3.26.17-beta.25-armeabi-v7a.apk"
+            "name": "moben-3.26.17-beta.26-armeabi-v7a.apk",
+            "size": 20022048,
+            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.26/moben-3.26.17-beta.26-armeabi-v7a.apk"
           },
           {
-            "name": "moben-3.26.17-beta.25.apk",
-            "size": 27053665,
-            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.25/moben-3.26.17-beta.25.apk"
+            "name": "moben-3.26.17-beta.26.apk",
+            "size": 27054690,
+            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.26/moben-3.26.17-beta.26.apk"
           }
         ]
       },
@@ -892,6 +892,52 @@
       "forkOf": null
     },
     {
+      "id": "eink",
+      "name": "阅读E-ink",
+      "tag": "eink",
+      "repo": "legado-backup/eink",
+      "term": "legado-branch-eink",
+      "skipAutoForks": true,
+      "allowNoRelease": true,
+      "gitee": "lyj09x/legado",
+      "upstreamUrl": "https://gitee.com/lyj09x/legado",
+      "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
+      "stars": 3,
+      "sourceUpdatedAt": "2026-09-28T22:00:44+08:00",
+      "githubArchived": false,
+      "release": {
+        "name": "阅读_E-ink_3.26.092723",
+        "tagName": "阅读_E-ink_3.26.092723",
+        "prerelease": false,
+        "publishedAt": "2026-09-27T23:44:53+08:00",
+        "createdAt": "2026-09-27T23:44:53+08:00",
+        "body": "- 新增自定义字重粗细\r\n- 删除正文标题下划线\r\n- 页脚返回书架加开关",
+        "assets": [
+          {
+            "name": "阅读_E-ink_3.26.092723.apk",
+            "size": 20895814,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.092723/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.apk"
+          },
+          {
+            "name": "阅读_magisk_3.26.092723.zip",
+            "size": 22644170,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.092723/%E9%98%85%E8%AF%BB_magisk_3.26.092723.zip"
+          },
+          {
+            "name": "阅读_E-ink_3.26.092723.zip",
+            "size": null,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.zip"
+          },
+          {
+            "name": "阅读_E-ink_3.26.092723.tar.gz",
+            "size": null,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.tar.gz"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
       "id": "iyuedu",
       "name": "i阅读",
       "tag": "iyuedu",
@@ -908,54 +954,6 @@
       "errors": [],
       "fork": false,
       "forkOf": null
-    },
-    {
-      "id": "eink",
-      "name": "阅读E-ink",
-      "tag": "eink",
-      "repo": "legado-backup/eink",
-      "term": "legado-branch-eink",
-      "skipAutoForks": true,
-      "allowNoRelease": true,
-      "gitee": "lyj09x/legado",
-      "upstreamUrl": "https://gitee.com/lyj09x/legado",
-      "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
-      "stars": null,
-      "sourceUpdatedAt": null,
-      "githubArchived": false,
-      "release": {
-        "name": "阅读_E-ink_3.26.092723",
-        "tagName": "阅读_E-ink_3.26.092723",
-        "prerelease": false,
-        "publishedAt": "2026-09-27T23:44:53+08:00",
-        "createdAt": "2026-09-27T23:44:53+08:00",
-        "body": "- 新增自定义字重粗细\r\n- 删除正文标题下划线\r\n- 页脚返回书架加开关",
-        "assets": [
-          {
-            "name": "阅读_E-ink_3.26.092723.apk",
-            "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.092723/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.apk"
-          },
-          {
-            "name": "阅读_magisk_3.26.092723.zip",
-            "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.092723/%E9%98%85%E8%AF%BB_magisk_3.26.092723.zip"
-          },
-          {
-            "name": "阅读_E-ink_3.26.092723.zip",
-            "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.zip"
-          },
-          {
-            "name": "阅读_E-ink_3.26.092723.tar.gz",
-            "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.tar.gz"
-          }
-        ]
-      },
-      "errors": [
-        "仓库信息同步失败：fetch failed"
-      ]
     }
   ]
 }
