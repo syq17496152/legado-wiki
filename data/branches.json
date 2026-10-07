@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T14:29:27.515Z",
+  "generatedAt": "2026-10-07T20:37:25.687Z",
   "branches": [
     {
       "id": "c",
@@ -10,20 +10,20 @@
       "pinned": true,
       "note": "站长开发。",
       "stars": 161,
-      "sourceUpdatedAt": "2026-10-05T07:33:42Z",
+      "sourceUpdatedAt": "2026-10-07T17:31:53Z",
       "githubArchived": false,
       "release": {
-        "name": "阅读C v3.26.091403（10897）",
-        "tagName": "v3.26.091403",
+        "name": "v3.26.100717",
+        "tagName": "v3.26.100717",
         "prerelease": false,
-        "publishedAt": "2026-09-14T04:18:29Z",
+        "publishedAt": "2026-10-07T17:14:03Z",
         "createdAt": "2026-08-30T00:00:00Z",
-        "body": "## 阅读C v3.26.091403（10897）\n\n### 评论数据分页抓取与下载控制\n\n- 评论下载接入分页抓取并拆分各阶段独立控制：数据接口支持 idea_comment 段评及楼中楼分页，章评、书评自动选择网页快照，可选强制数据接口或网页快照，执行失败不自动切换引擎。\n- 新增评论下载设置：评论数据、楼中楼、离线资源、网页快照页面、快照重处理五路并发配额，评论/回复每页请求数量、网页稳定检测间隔与确认轮数、各阶段超时、请求失败重试次数与退避方式（固定/线性/指数）均可调。\n- 新增下载要求开关：头像、评论图片、样式表、字体失败即标记部分快照，可关闭；支持复用接口内嵌完整回复与已缓存公共资源。\n- 书源新增评论数据协议声明（snapshotProtocol：留空自动识别，idea_comment 支持段评及楼中楼）。\n\n交流群 1101873338，好用的话点个 star，谢谢啦。\n",
+        "body": "阅读C 本次更新（bug 修复与必要更新合集，无新增功能）：\n\n签名变更\n- 公开版正式 APK 改用仓库 signing/debug.keystore 签名，不再使用 SDK 自带 debug 签名；官方证书 SHA-256 见 README 签名说明，可用 apksigner verify --print-certs 核对。\n- 签名已更换，旧版（SDK 签名）无法直接覆盖安装新版，需先卸载旧版再安装；v3.26.100716（SDK 签名）已下架。\n\n\n备份与恢复\n- 备份打包清单只含实际落盘文件，空表不再导致整次备份失败；备份加密失败即中止，不再写出半加密包。\n- 恢复 DB 段整体事务化，任一步失败整库回滚，杜绝半恢复态；损坏的备份条目直接报错中止，不再静默跳过。\n- 恢复书籍按身份（书名+作者+媒体类型）收敛，两台设备选了不同书源的同一本书不再出现重复条目；配图按最终落库重映射，跨源配图丢弃。\n\n阅读进度同步\n- 云端进度拉取区分“云端无文件”与“拉取失败”，网络抖动不再用本地旧进度反向覆盖云端新进度。\n- 下载成功但内容损坏的进度文件不再被当成无进度；数字字段严格校验，错误类型不再被静默归零。\n- 阅读进度仅在上传成功后推进同步水位；“拉取/覆盖云端进度”菜单项改常驻，不再时有时无。\n\n日夜切换\n- 日夜间切换整体修复，夜间覆盖与后续界面解析始终同步；阅读页跟随系统日夜翻转就地刷新，不再重建。\n\n朗读\n- 朗读跟随四点修复：确认切换后短路防双击拽页、翻页动画中不跟随、跟随进度落库、滚动模式不重置页偏移。\n- 朗读服务启动改为串行准备并在主线程确认令牌，关闭旧请求压掉新请求状态的竞态；书源音频速度非法输入改为提示不再崩溃服务进程。\n- 朗读悬浮窗非法位置改为清除陈旧避让区并重算，不再崩溃或残留避让。\n\n评论\n- 评论楼中楼兜底强展：结构定位加文本兜底两段式展开，防重入标记，连续无新展开即收口。\n- 阅读刷新真正提交评论下载任务，不再只打待刷新标记等自动下载顺带消费。\n\n换源\n- 换源对话框点击当前书源行改为 toast 提示，不再静默无反应；书源已被删除时提示并返回，不再无反应。\n- 批量换源书籍与目录原子保存，补删旧记录，不再残留重复书；同址更新不再触发级联清空章节。\n\n主题与设置\n- 日夜同名主题按名称加夜间标志双键匹配，不再互相覆盖丢配色。\n- 偏好行文字明暗按卡片实际绘制表面判定，中灰主题不再白字配浅卡。\n\n其它\n- 本地书 Mobi 描述符统一关闭，解析失败不再滞留文件句柄；文本目录并发补锁；截图迟到回调回收位图；同书址刷目录改走更新，保留章节与快捷入口；删除 4 处已证伪的死代码与零引用字符串。\n",
         "assets": [
           {
-            "name": "legado_oss_3.26.091403_10897.apk",
-            "size": 35917656,
-            "browserDownloadUrl": "https://github.com/CCSSNE/legadoC/releases/download/v3.26.091403/legado_oss_3.26.091403_10897.apk"
+            "name": "legado_oss_3.26.100717_10901.apk",
+            "size": 39598825,
+            "browserDownloadUrl": "https://github.com/CCSSNE/legadoC/releases/download/v3.26.100717/legado_oss_3.26.100717_10901.apk"
           }
         ]
       },
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47111,
+      "stars": 47110,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,8 +85,8 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6395,
-      "sourceUpdatedAt": "2026-10-07T13:56:02Z",
+      "stars": 6399,
+      "sourceUpdatedAt": "2026-10-07T19:25:56Z",
       "githubArchived": false,
       "release": {
         "name": "Pre-release 3.26.16-beta.44",
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2827,
+      "stars": 2828,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1415,
+      "stars": 1418,
       "sourceUpdatedAt": "2026-10-05T15:13:38Z",
       "githubArchived": false,
       "release": {
@@ -462,7 +462,7 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 260,
+      "stars": 261,
       "sourceUpdatedAt": "2026-10-07T09:48:18Z",
       "githubArchived": false,
       "release": {
@@ -617,7 +617,7 @@
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
       "stars": 118,
-      "sourceUpdatedAt": "2026-09-25T17:55:57Z",
+      "sourceUpdatedAt": "2026-10-07T17:20:08Z",
       "githubArchived": false,
       "release": {
         "name": "legado_ng_3.26.092601",
@@ -806,35 +806,35 @@
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
       "stars": 16,
-      "sourceUpdatedAt": "2026-10-06T18:22:46Z",
+      "sourceUpdatedAt": "2026-10-07T20:24:09Z",
       "githubArchived": false,
       "release": {
-        "name": "Pre-release 3.26.17-beta.26",
-        "tagName": "3.26.17-beta.26",
+        "name": "Pre-release 3.26.17-beta.27",
+        "tagName": "3.26.17-beta.27",
         "prerelease": true,
-        "publishedAt": "2026-10-06T04:44:34Z",
-        "createdAt": "2026-10-06T03:52:25Z",
-        "body": "**此版本为测试版，会存在不稳定问题。**\n\n# 更新日志\n\n墨本阅读——开源阅读 legado 的墨水屏增强发行版：同一本书，两种读法。\n\n## 3.26.17-beta（预发布）\n\n本次更新为墨水屏模式优化了换源与字体选择列表，并新增汉王设备后台免疫模块（需 LSPosed）。\n\n### 新增\n\n* 墨水屏模式：换源列表第一位常驻当前书源——打开换源即可看到当前正在使用的书源（带「当前源」标记），重新搜索也不会消失；点击它会提示已是当前书源，搜索结果中也不再重复出现当前书源\n* 墨水屏模式：字体选择列表所见即所得——列表中每个字体都用它自己的字形显示名称和一段中英文示例文字，选中项有醒目的标记；列表按名称排序，更容易比较和找到想要的字体\n* 墨水屏模式：应用内置 LSPosed 模块「墨本阅读」——汉王设备上配合 LSPosed 启用本模块（作用域勾选 设置 + 桌面，重启后生效），回到桌面应用不再被桌面强制清理后台",
+        "publishedAt": "2026-10-07T20:23:55Z",
+        "createdAt": "2026-10-07T20:09:49Z",
+        "body": "**此版本为测试版，会存在不稳定问题。**\n\n# 更新日志\n\n墨本阅读——开源阅读 legado 的墨水屏增强发行版：同一本书，两种读法。\n\n## 3.26.17-beta（预发布）\n\n本次更新墨水屏模式落地自动翻页节奏、弹窗样式与独立字体设置三项改进，完整模式合入上游朗读多角色配音套件，Web 阅读端支持手柄翻页，并修复多项问题。\n\n### 新增\n\n* 墨水屏模式：自动翻页按页面内容量调节等待——本页内容不满一屏时，等待时间按实际内容占比缩短，不再每页都等满时长（最短保留 1 秒，防墨水屏高频刷新）\n* 墨水屏模式：确认弹窗按钮改为格线样式——按钮之间以细线分隔、按压时整格反白，双按钮一横一竖、三个动作两横一竖，墨水屏下更清晰\n* 墨水屏模式：新增独立字体设置页——「我的」中设置应用界面字体（含系统预设与自定义字体，选择后自动定位反显）；阅读器内打开则进入阅读字体选择，两处入口各自生效\n* 完整模式：朗读多角色配音——正则角色按规则匹配角色并绑定音色，也可让 AI 自动分配；支持音色池、变声器、背景音乐与音效、角色悬浮胶囊与头像等一整套设置\n* Web 阅读端：支持手柄翻页——LT/RT 扳机键翻页，摇杆死区与扳机判定优化；十字键加冷却防抖，抖动不再一次连跳多章\n\n### 修复\n\n* 完整模式：书源人机验证完成后自动继续之前的搜索，不再中断\n* 完整模式：分组关闭「允许下拉刷新」后不再能下拉刷新\n* 完整模式：修复开书瞬间可能闪现上一本书正文、朗读通知点回阅读页叠出两层阅读页、高亮规则预览示例句位置偏移等问题\n\n### 优化\n\n* 完整模式：开书与详情页转场更流畅，设置类页面静止时不再空转耗电",
         "assets": [
           {
             "name": "mapping.txt",
-            "size": 291119077,
-            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.26/mapping.txt"
+            "size": 304878311,
+            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.27/mapping.txt"
           },
           {
-            "name": "moben-3.26.17-beta.26-arm64-v8a.apk",
-            "size": 20482228,
-            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.26/moben-3.26.17-beta.26-arm64-v8a.apk"
+            "name": "moben-3.26.17-beta.27-arm64-v8a.apk",
+            "size": 21098174,
+            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.27/moben-3.26.17-beta.27-arm64-v8a.apk"
           },
           {
-            "name": "moben-3.26.17-beta.26-armeabi-v7a.apk",
-            "size": 20022048,
-            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.26/moben-3.26.17-beta.26-armeabi-v7a.apk"
+            "name": "moben-3.26.17-beta.27-armeabi-v7a.apk",
+            "size": 20637979,
+            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.27/moben-3.26.17-beta.27-armeabi-v7a.apk"
           },
           {
-            "name": "moben-3.26.17-beta.26.apk",
-            "size": 27054690,
-            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.26/moben-3.26.17-beta.26.apk"
+            "name": "moben-3.26.17-beta.27.apk",
+            "size": 27670622,
+            "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.27/moben-3.26.17-beta.27.apk"
           }
         ]
       },
@@ -948,35 +948,35 @@
       "upstreamUrl": "https://gitee.com/lyj09x/legado",
       "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
       "stars": 3,
-      "sourceUpdatedAt": "2026-10-07T22:05:21+08:00",
+      "sourceUpdatedAt": "2026-10-07T23:15:05+08:00",
       "githubArchived": false,
       "release": {
-        "name": "阅读_E-ink_3.26.100721",
-        "tagName": "阅读_E-ink_3.26.100721",
+        "name": "阅读_E-ink_3.26.100723",
+        "tagName": "阅读_E-ink_3.26.100723",
         "prerelease": false,
-        "publishedAt": "2026-10-07T22:05:21+08:00",
-        "createdAt": "2026-10-07T22:05:21+08:00",
+        "publishedAt": "2026-10-07T23:15:05+08:00",
+        "createdAt": "2026-10-07T23:15:05+08:00",
         "body": "- 优化页面自适应屏幕\r\n- 首页统计周最高刻度",
         "assets": [
           {
-            "name": "阅读_E-ink_3.26.100721.apk",
-            "size": 20908046,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100721/%E9%98%85%E8%AF%BB_E-ink_3.26.100721.apk"
+            "name": "阅读_E-ink_3.26.100723.apk",
+            "size": 20912200,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100723/%E9%98%85%E8%AF%BB_E-ink_3.26.100723.apk"
           },
           {
-            "name": "阅读_magisk_3.26.100721.zip",
-            "size": 22656262,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100721/%E9%98%85%E8%AF%BB_magisk_3.26.100721.zip"
-          },
-          {
-            "name": "阅读_E-ink_3.26.100721.zip",
+            "name": "阅读_magisk_3.26.100723.zip",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100721.zip"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100723/%E9%98%85%E8%AF%BB_magisk_3.26.100723.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.100721.tar.gz",
+            "name": "阅读_E-ink_3.26.100723.zip",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100721.tar.gz"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100723.zip"
+          },
+          {
+            "name": "阅读_E-ink_3.26.100723.tar.gz",
+            "size": null,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100723.tar.gz"
           }
         ]
       },
