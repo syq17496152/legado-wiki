@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T00:40:56.637Z",
+  "generatedAt": "2026-10-07T07:13:13.459Z",
   "branches": [
     {
       "id": "c",
@@ -9,7 +9,7 @@
       "term": "legado-branch-c",
       "pinned": true,
       "note": "站长开发。",
-      "stars": 160,
+      "stars": 161,
       "sourceUpdatedAt": "2026-10-05T07:33:42Z",
       "githubArchived": false,
       "release": {
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47114,
+      "stars": 47113,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6386,
+      "stars": 6389,
       "sourceUpdatedAt": "2026-10-05T07:08:43Z",
       "githubArchived": false,
       "release": {
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2820,
+      "stars": 2825,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -156,7 +156,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2194,
+      "stars": 2195,
       "sourceUpdatedAt": "2026-09-14T14:44:30Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1404,
+      "stars": 1408,
       "sourceUpdatedAt": "2026-10-05T15:13:38Z",
       "githubArchived": false,
       "release": {
@@ -232,7 +232,7 @@
       "tag": "archive",
       "repo": "Rimchars/legado",
       "term": "legado-branch-archive",
-      "stars": 601,
+      "stars": 602,
       "sourceUpdatedAt": "2026-09-24T15:32:04Z",
       "githubArchived": false,
       "release": {
@@ -266,7 +266,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 383,
+      "stars": 384,
       "sourceUpdatedAt": "2026-10-05T16:52:10Z",
       "githubArchived": false,
       "release": {
@@ -462,26 +462,46 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 259,
-      "sourceUpdatedAt": "2026-10-03T08:55:56Z",
+      "stars": 260,
+      "sourceUpdatedAt": "2026-10-07T04:08:16Z",
       "githubArchived": false,
       "release": {
-        "name": "multiplatform-test",
-        "tagName": "multiplatform-test",
-        "prerelease": false,
-        "publishedAt": "2026-10-03T08:55:57Z",
-        "createdAt": "2026-10-03T08:38:15Z",
-        "body": "多平台测试包（未签名，供侧载/自签验证）：\n\n- **鸿蒙**: arm64-v8a，未签名，hdc install 安装需关闭签名校验或用 hap-sign-tool 自签\n- **iOS**: SideStore/AltStore 自签侧载\n\n⚠️ 均为未签名产物，仅供多平台功能测试。",
+        "name": "3.26.10071148",
+        "tagName": "beta",
+        "prerelease": true,
+        "publishedAt": "2026-10-07T04:08:17Z",
+        "createdAt": "2026-10-07T03:05:29Z",
+        "body": "## 更新日志\n- chore(proguard): 收窄 zxing keep 到编码面, release 裁掉二维码解析面      (3b17f4c80)\n- fix(compat): 清编译 warning (catvod 壳与兼容层弃用标注)                  (e883a7483)\n- feat(plugin): 插件源筛选接入发现页与搜索页, 会话随页面持有               (ee44a4cdd)\n- feat(search): 按源分类区块内显示搜索 url 可配置项, 点选只重搜该源        (e2b530747)\n- refactor(search): 聚合结果列表改为按源分组纯派生                         (bd7e99501)\n- fix(tvbox): 修 TVBox 桥接/委派/发现分类审计缺陷                          (996201ebc)\n- fix(bookmark): 修书签导出审计缺陷                                        (c505d7318)\n- fix(read): 修阅读高亮投影审计缺陷                                        (2ab448654)\n- fix(extension): 修插件偏好持久化与恢复钩子审计缺陷                       (85e8bdf02)\n- fix(video): 修播放装载与格式重试审计缺陷                                 (5f6028836)\n- fix(network): 修 CF 挑战拦截审计缺陷                                     (04f987a0a)\n- test(tvbox): 加 js2Proxy 端到端环回验证                                  (5f58b4dbd)\n- feat(manga): 插件配置支持动作型偏好项                                    (d46f8018e)\n- test(tvbox): 加全站真播排查工具                                          (cd4e9a883)\n- fix(书源): 修冻结编辑页的下拉框参数接线                                  (3195420b0)\n- feat(read): 改划线为批注，新增自由选色与线型自选                         (cbcc86f2a)\n- refactor(source): 收敛插件取数委派为有序注册表                           (b45d5a8fa)\n- fix(ui): 统一四处对话框列表限高为 textAreaMaxHeight                      (274cda04b)\n- feat(书源): 冻结虚拟源编辑页规则字段, 启用与发现开关保持可改             (14a18c2d2)\n- fix(ui): 对齐 app 端对话框宿主高度锚为共享模块 0.8                       (fa9dd051c)\n",
         "assets": [
           {
-            "name": "legado-3.26.100316-unsigned.hap",
-            "size": 66891969,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.100316-unsigned.hap"
+            "name": "all.apk",
+            "size": 18717678,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all.apk"
           },
           {
-            "name": "legado-3.26.10031638-ios-unsigned.ipa",
-            "size": 32651041,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.10031638-ios-unsigned.ipa"
+            "name": "all_releaseA.apk",
+            "size": 18717678,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all_releaseA.apk"
+          },
+          {
+            "name": "arm64.apk",
+            "size": 11652331,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64.apk"
+          },
+          {
+            "name": "arm64_releaseA.apk",
+            "size": 11652331,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64_releaseA.apk"
+          },
+          {
+            "name": "armv7.apk",
+            "size": 10937453,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7.apk"
+          },
+          {
+            "name": "armv7_releaseA.apk",
+            "size": 10937453,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7_releaseA.apk"
           }
         ]
       },
@@ -683,7 +703,7 @@
       "repo": "syq17496152/legado",
       "term": "legado-branch-m",
       "stars": 22,
-      "sourceUpdatedAt": "2026-10-05T11:01:14Z",
+      "sourceUpdatedAt": "2026-10-07T05:03:36Z",
       "githubArchived": false,
       "release": {
         "name": "3.26.100321",
@@ -903,35 +923,35 @@
       "upstreamUrl": "https://gitee.com/lyj09x/legado",
       "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
       "stars": 3,
-      "sourceUpdatedAt": "2026-09-28T22:00:44+08:00",
+      "sourceUpdatedAt": "2026-10-07T12:18:06+08:00",
       "githubArchived": false,
       "release": {
-        "name": "阅读_E-ink_3.26.092723",
-        "tagName": "阅读_E-ink_3.26.092723",
+        "name": "阅读_E-ink_3.26.100712",
+        "tagName": "阅读_E-ink_3.26.100712",
         "prerelease": false,
-        "publishedAt": "2026-09-27T23:44:53+08:00",
-        "createdAt": "2026-09-27T23:44:53+08:00",
-        "body": "- 新增自定义字重粗细\r\n- 删除正文标题下划线\r\n- 页脚返回书架加开关",
+        "publishedAt": "2026-10-07T12:18:06+08:00",
+        "createdAt": "2026-10-07T12:18:06+08:00",
+        "body": "- 不再对国文特性更新\r\n- 页眉页脚可点击返回\r\n- 新增主页并优化页面\r\n- 新增权限提示并跳转",
         "assets": [
           {
-            "name": "阅读_E-ink_3.26.092723.apk",
-            "size": 20895814,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.092723/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.apk"
+            "name": "阅读_E-ink_3.26.100712.apk",
+            "size": 20908046,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100712/%E9%98%85%E8%AF%BB_E-ink_3.26.100712.apk"
           },
           {
-            "name": "阅读_magisk_3.26.092723.zip",
-            "size": 22644170,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.092723/%E9%98%85%E8%AF%BB_magisk_3.26.092723.zip"
+            "name": "阅读_magisk_3.26.100712.zip",
+            "size": 22654467,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100712/%E9%98%85%E8%AF%BB_magisk_3.26.100712.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.092723.zip",
+            "name": "阅读_E-ink_3.26.100712.zip",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.zip"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100712.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.092723.tar.gz",
+            "name": "阅读_E-ink_3.26.100712.tar.gz",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.092723.tar.gz"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100712.tar.gz"
           }
         ]
       },
