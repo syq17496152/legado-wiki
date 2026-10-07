@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T07:13:13.459Z",
+  "generatedAt": "2026-10-07T14:29:27.515Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47113,
+      "stars": 47111,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,8 +85,8 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6389,
-      "sourceUpdatedAt": "2026-10-05T07:08:43Z",
+      "stars": 6395,
+      "sourceUpdatedAt": "2026-10-07T13:56:02Z",
       "githubArchived": false,
       "release": {
         "name": "Pre-release 3.26.16-beta.44",
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2825,
+      "stars": 2827,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1408,
+      "stars": 1415,
       "sourceUpdatedAt": "2026-10-05T15:13:38Z",
       "githubArchived": false,
       "release": {
@@ -232,7 +232,7 @@
       "tag": "archive",
       "repo": "Rimchars/legado",
       "term": "legado-branch-archive",
-      "stars": 602,
+      "stars": 604,
       "sourceUpdatedAt": "2026-09-24T15:32:04Z",
       "githubArchived": false,
       "release": {
@@ -266,7 +266,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 384,
+      "stars": 386,
       "sourceUpdatedAt": "2026-10-05T16:52:10Z",
       "githubArchived": false,
       "release": {
@@ -463,45 +463,70 @@
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
       "stars": 260,
-      "sourceUpdatedAt": "2026-10-07T04:08:16Z",
+      "sourceUpdatedAt": "2026-10-07T09:48:18Z",
       "githubArchived": false,
       "release": {
-        "name": "3.26.10071148",
+        "name": "3.26.10071715",
         "tagName": "beta",
         "prerelease": true,
-        "publishedAt": "2026-10-07T04:08:17Z",
-        "createdAt": "2026-10-07T03:05:29Z",
-        "body": "## 更新日志\n- chore(proguard): 收窄 zxing keep 到编码面, release 裁掉二维码解析面      (3b17f4c80)\n- fix(compat): 清编译 warning (catvod 壳与兼容层弃用标注)                  (e883a7483)\n- feat(plugin): 插件源筛选接入发现页与搜索页, 会话随页面持有               (ee44a4cdd)\n- feat(search): 按源分类区块内显示搜索 url 可配置项, 点选只重搜该源        (e2b530747)\n- refactor(search): 聚合结果列表改为按源分组纯派生                         (bd7e99501)\n- fix(tvbox): 修 TVBox 桥接/委派/发现分类审计缺陷                          (996201ebc)\n- fix(bookmark): 修书签导出审计缺陷                                        (c505d7318)\n- fix(read): 修阅读高亮投影审计缺陷                                        (2ab448654)\n- fix(extension): 修插件偏好持久化与恢复钩子审计缺陷                       (85e8bdf02)\n- fix(video): 修播放装载与格式重试审计缺陷                                 (5f6028836)\n- fix(network): 修 CF 挑战拦截审计缺陷                                     (04f987a0a)\n- test(tvbox): 加 js2Proxy 端到端环回验证                                  (5f58b4dbd)\n- feat(manga): 插件配置支持动作型偏好项                                    (d46f8018e)\n- test(tvbox): 加全站真播排查工具                                          (cd4e9a883)\n- fix(书源): 修冻结编辑页的下拉框参数接线                                  (3195420b0)\n- feat(read): 改划线为批注，新增自由选色与线型自选                         (cbcc86f2a)\n- refactor(source): 收敛插件取数委派为有序注册表                           (b45d5a8fa)\n- fix(ui): 统一四处对话框列表限高为 textAreaMaxHeight                      (274cda04b)\n- feat(书源): 冻结虚拟源编辑页规则字段, 启用与发现开关保持可改             (14a18c2d2)\n- fix(ui): 对齐 app 端对话框宿主高度锚为共享模块 0.8                       (fa9dd051c)\n",
+        "publishedAt": "2026-10-07T09:48:19Z",
+        "createdAt": "2026-10-07T08:52:52Z",
+        "body": "## 更新日志\n- refactor(tvbox): JS 桥 headers 兜底解析从 Gson 迁 kotlinx.serialization  (81b48171b)\n- fix(tvbox): 补 spider jar 直调 Gson 的 release keep 规则                 (38a3d64ff)\n- fix(proguard): 锚定 injekt/Gson 泛型反射子类, 修 release 包启动即崩      (61089fbf3)\n- feat(update): 恢复升级弹更新日志并接入四端启动序列                       (72e97671c)\n- fix(data): compose runtime 官方声明+ohos 替换, 修鸿蒙解析失败            (909d01739)\n- fix(ksoup): jsoup 门面 expect/actual 化, 修 ios/ohos native 编译         (6435592cc)\n- fix(desktop): proguard 忽略 apk-parser/dex2jar 可选依赖缺类              (66478488e)",
         "assets": [
           {
             "name": "all.apk",
-            "size": 18717678,
+            "size": 18752432,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all.apk"
           },
           {
             "name": "all_releaseA.apk",
-            "size": 18717678,
+            "size": 18752432,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all_releaseA.apk"
           },
           {
             "name": "arm64.apk",
-            "size": 11652331,
+            "size": 11687085,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64.apk"
           },
           {
             "name": "arm64_releaseA.apk",
-            "size": 11652331,
+            "size": 11687085,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64_releaseA.apk"
           },
           {
             "name": "armv7.apk",
-            "size": 10937453,
+            "size": 10972207,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7.apk"
           },
           {
             "name": "armv7_releaseA.apk",
-            "size": 10937453,
+            "size": 10972207,
             "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7_releaseA.apk"
+          },
+          {
+            "name": "linux_x64.deb",
+            "size": 101976900,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.deb"
+          },
+          {
+            "name": "linux_x64.rpm",
+            "size": 108861888,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.rpm"
+          },
+          {
+            "name": "macos_arm64.dmg",
+            "size": 113539031,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/macos_arm64.dmg"
+          },
+          {
+            "name": "windows_x64.msi",
+            "size": 104653329,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64.msi"
+          },
+          {
+            "name": "windows_x64_portable.zip",
+            "size": 103429191,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64_portable.zip"
           }
         ]
       },
@@ -515,7 +540,7 @@
       "tag": "t",
       "repo": "skybbk1001/legadoT",
       "term": "legado-branch-t",
-      "stars": 137,
+      "stars": 138,
       "sourceUpdatedAt": "2026-09-07T05:49:13Z",
       "githubArchived": false,
       "release": {
@@ -664,7 +689,7 @@
       "repo": "GEd520/legados",
       "term": "legado-branch-max-cichen",
       "note": "独立仓库，有自己的 APK 发布。",
-      "stars": 74,
+      "stars": 75,
       "sourceUpdatedAt": "2026-08-02T07:00:38Z",
       "githubArchived": false,
       "release": {
@@ -923,35 +948,35 @@
       "upstreamUrl": "https://gitee.com/lyj09x/legado",
       "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
       "stars": 3,
-      "sourceUpdatedAt": "2026-10-07T12:18:06+08:00",
+      "sourceUpdatedAt": "2026-10-07T22:05:21+08:00",
       "githubArchived": false,
       "release": {
-        "name": "阅读_E-ink_3.26.100712",
-        "tagName": "阅读_E-ink_3.26.100712",
+        "name": "阅读_E-ink_3.26.100721",
+        "tagName": "阅读_E-ink_3.26.100721",
         "prerelease": false,
-        "publishedAt": "2026-10-07T12:18:06+08:00",
-        "createdAt": "2026-10-07T12:18:06+08:00",
-        "body": "- 不再对国文特性更新\r\n- 页眉页脚可点击返回\r\n- 新增主页并优化页面\r\n- 新增权限提示并跳转",
+        "publishedAt": "2026-10-07T22:05:21+08:00",
+        "createdAt": "2026-10-07T22:05:21+08:00",
+        "body": "- 优化页面自适应屏幕\r\n- 首页统计周最高刻度",
         "assets": [
           {
-            "name": "阅读_E-ink_3.26.100712.apk",
+            "name": "阅读_E-ink_3.26.100721.apk",
             "size": 20908046,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100712/%E9%98%85%E8%AF%BB_E-ink_3.26.100712.apk"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100721/%E9%98%85%E8%AF%BB_E-ink_3.26.100721.apk"
           },
           {
-            "name": "阅读_magisk_3.26.100712.zip",
-            "size": 22654467,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100712/%E9%98%85%E8%AF%BB_magisk_3.26.100712.zip"
+            "name": "阅读_magisk_3.26.100721.zip",
+            "size": 22656262,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.100721/%E9%98%85%E8%AF%BB_magisk_3.26.100721.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.100712.zip",
+            "name": "阅读_E-ink_3.26.100721.zip",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100712.zip"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100721.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.100712.tar.gz",
+            "name": "阅读_E-ink_3.26.100721.tar.gz",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100712.tar.gz"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.100721.tar.gz"
           }
         ]
       },
