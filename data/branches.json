@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T05:53:45.415Z",
+  "generatedAt": "2026-10-12T15:19:04.975Z",
   "branches": [
     {
       "id": "c",
@@ -9,21 +9,21 @@
       "term": "legado-branch-c",
       "pinned": true,
       "note": "站长开发。",
-      "stars": 169,
-      "sourceUpdatedAt": "2026-10-12T02:37:25Z",
+      "stars": 170,
+      "sourceUpdatedAt": "2026-10-12T09:11:17Z",
       "githubArchived": false,
       "release": {
-        "name": "v3.26.100717",
-        "tagName": "v3.26.100717",
-        "prerelease": false,
-        "publishedAt": "2026-10-07T17:14:03Z",
+        "name": "公开版 Pre：蓝牙按键映射双态 v3.26.101209",
+        "tagName": "v3.26.101209",
+        "prerelease": true,
+        "publishedAt": "2026-10-12T09:07:26Z",
         "createdAt": "2026-08-30T00:00:00Z",
-        "body": "阅读C 本次更新（bug 修复与必要更新合集，无新增功能）：\n\n签名变更\n- 公开版正式 APK 改用仓库 signing/debug.keystore 签名，不再使用 SDK 自带 debug 签名；官方证书 SHA-256 见 README 签名说明，可用 apksigner verify --print-certs 核对。\n- 签名已更换，旧版（SDK 签名）无法直接覆盖安装新版，需先卸载旧版再安装；v3.26.100716（SDK 签名）已下架。\n\n\n备份与恢复\n- 备份打包清单只含实际落盘文件，空表不再导致整次备份失败；备份加密失败即中止，不再写出半加密包。\n- 恢复 DB 段整体事务化，任一步失败整库回滚，杜绝半恢复态；损坏的备份条目直接报错中止，不再静默跳过。\n- 恢复书籍按身份（书名+作者+媒体类型）收敛，两台设备选了不同书源的同一本书不再出现重复条目；配图按最终落库重映射，跨源配图丢弃。\n\n阅读进度同步\n- 云端进度拉取区分“云端无文件”与“拉取失败”，网络抖动不再用本地旧进度反向覆盖云端新进度。\n- 下载成功但内容损坏的进度文件不再被当成无进度；数字字段严格校验，错误类型不再被静默归零。\n- 阅读进度仅在上传成功后推进同步水位；“拉取/覆盖云端进度”菜单项改常驻，不再时有时无。\n\n日夜切换\n- 日夜间切换整体修复，夜间覆盖与后续界面解析始终同步；阅读页跟随系统日夜翻转就地刷新，不再重建。\n\n朗读\n- 朗读跟随四点修复：确认切换后短路防双击拽页、翻页动画中不跟随、跟随进度落库、滚动模式不重置页偏移。\n- 朗读服务启动改为串行准备并在主线程确认令牌，关闭旧请求压掉新请求状态的竞态；书源音频速度非法输入改为提示不再崩溃服务进程。\n- 朗读悬浮窗非法位置改为清除陈旧避让区并重算，不再崩溃或残留避让。\n\n评论\n- 评论楼中楼兜底强展：结构定位加文本兜底两段式展开，防重入标记，连续无新展开即收口。\n- 阅读刷新真正提交评论下载任务，不再只打待刷新标记等自动下载顺带消费。\n\n换源\n- 换源对话框点击当前书源行改为 toast 提示，不再静默无反应；书源已被删除时提示并返回，不再无反应。\n- 批量换源书籍与目录原子保存，补删旧记录，不再残留重复书；同址更新不再触发级联清空章节。\n\n主题与设置\n- 日夜同名主题按名称加夜间标志双键匹配，不再互相覆盖丢配色。\n- 偏好行文字明暗按卡片实际绘制表面判定，中灰主题不再白字配浅卡。\n\n其它\n- 本地书 Mobi 描述符统一关闭，解析失败不再滞留文件句柄；文本目录并发补锁；截图迟到回调回收位图；同书址刷目录改走更新，保留章节与快捷入口；删除 4 处已证伪的死代码与零引用字符串。\n",
+        "body": "Pre 预览版：含未广泛验证的新功能，Latest 标记保持在正式版不动。\n\n相对 v3.26.100717 的变化（均为开源构建包含的主代码功能）：\n- 新增阅读页蓝牙按键映射：上一曲/快退/下一曲/快进/播放暂停可映射无操作/整页书签/上一页/下一页/朗读切段\n- 蓝牙朗读快退/快进连续切段，朗读设置可调切段间隔\n- 映射界面改为居中弹窗；扩展为 7 键（新增音量加/减），每个键分阅读/朗读两态配置，底部阅读式/朗读式切换\n- 删除旧的音量键翻页、朗读时音量键翻页、耳机按键切段/切章开关（功能已被双态矩阵覆盖，升级后需按新矩阵重新配置）\n- 宣传图追加第 30 张\n\n包名 io.legado.app.c，可与自用版（io.legado.app.dev）共存安装。",
         "assets": [
           {
-            "name": "legado_oss_3.26.100717_10901.apk",
-            "size": 39598825,
-            "browserDownloadUrl": "https://github.com/CCSSNE/legadoC/releases/download/v3.26.100717/legado_oss_3.26.100717_10901.apk"
+            "name": "legado_oss_3.26.101209_10906.apk",
+            "size": 39618080,
+            "browserDownloadUrl": "https://github.com/CCSSNE/legadoC/releases/download/v3.26.101209/legado_oss_3.26.101209_10906.apk"
           }
         ]
       },
@@ -44,7 +44,7 @@
           "name": "CCSSNE/legado",
           "repo": "CCSSNE/legado",
           "url": "https://github.com/CCSSNE/legado",
-          "stars": 31,
+          "stars": 32,
           "updatedAt": "2026-08-11T01:49:32Z"
         }
       ],
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6446,
+      "stars": 6450,
       "sourceUpdatedAt": "2026-10-11T20:15:21Z",
       "githubArchived": false,
       "release": {
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2869,
+      "stars": 2871,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -156,7 +156,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2203,
+      "stars": 2205,
       "sourceUpdatedAt": "2026-09-14T14:44:30Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1462,
+      "stars": 1466,
       "sourceUpdatedAt": "2026-10-05T15:13:38Z",
       "githubArchived": false,
       "release": {
@@ -266,7 +266,7 @@
       "repo": "hlning/cmbok_app",
       "term": "legado-branch-cmbok",
       "note": "独立多平台应用，发布 Windows / iOS / 安卓安装包，兼容阅读书源。",
-      "stars": 425,
+      "stars": 429,
       "sourceUpdatedAt": "2026-10-11T13:14:05Z",
       "githubArchived": false,
       "release": {
@@ -613,7 +613,7 @@
       "tag": "jingshiro",
       "repo": "Jingshiro/legado",
       "term": "legado-branch-jingshiro",
-      "stars": 128,
+      "stars": 129,
       "sourceUpdatedAt": "2026-09-06T09:25:49Z",
       "githubArchived": false,
       "release": {
@@ -646,8 +646,8 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 125,
-      "sourceUpdatedAt": "2026-10-12T05:34:52Z",
+      "stars": 126,
+      "sourceUpdatedAt": "2026-10-12T13:43:03Z",
       "githubArchived": false,
       "release": {
         "name": "legado_ng_3.26.100906",
@@ -816,7 +816,7 @@
       "repo": "nexhub-app/Nexhub",
       "term": "legado-branch-nexhub",
       "note": "独立多平台应用，动漫 / 漫画 / 小说 / 影视聚合，发布安卓 / Linux / macOS / Windows 安装包。",
-      "stars": 43,
+      "stars": 44,
       "sourceUpdatedAt": "2026-10-11T12:35:01Z",
       "githubArchived": false,
       "release": {
@@ -895,7 +895,7 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 32,
+      "stars": 34,
       "sourceUpdatedAt": "2026-10-08T00:51:35Z",
       "githubArchived": false,
       "release": {
@@ -979,7 +979,7 @@
       "repo": "syq17496152/legado",
       "term": "legado-branch-m",
       "stars": 23,
-      "sourceUpdatedAt": "2026-10-12T05:27:28Z",
+      "sourceUpdatedAt": "2026-10-12T13:39:56Z",
       "githubArchived": false,
       "release": {
         "name": "3.26.100915",
@@ -1056,7 +1056,7 @@
       "repo": "Mupceet/EssentialReader",
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
-      "stars": 18,
+      "stars": 19,
       "sourceUpdatedAt": "2026-10-10T16:27:58Z",
       "githubArchived": false,
       "release": {
