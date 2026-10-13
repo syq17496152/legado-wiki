@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T22:57:31.349Z",
+  "generatedAt": "2026-10-13T03:32:39.835Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47116,
+      "stars": 47114,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6454,
+      "stars": 6458,
       "sourceUpdatedAt": "2026-10-12T21:31:50Z",
       "githubArchived": false,
       "release": {
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2871,
+      "stars": 2872,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -156,7 +156,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2205,
+      "stars": 2206,
       "sourceUpdatedAt": "2026-09-14T14:44:30Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1467,
+      "stars": 1469,
       "sourceUpdatedAt": "2026-10-05T15:13:38Z",
       "githubArchived": false,
       "release": {
@@ -279,17 +279,22 @@
         "assets": [
           {
             "name": "Cmbok-reader.apk",
-            "size": 33921524,
+            "size": 33972196,
             "browserDownloadUrl": "https://github.com/hlning/cmbok_app/releases/download/V2.0.9/Cmbok-reader.apk"
           },
           {
             "name": "Cmbok.apk",
-            "size": 37751662,
+            "size": 37791070,
             "browserDownloadUrl": "https://github.com/hlning/cmbok_app/releases/download/V2.0.9/Cmbok.apk"
           },
           {
+            "name": "Cmbok_ios.ipa",
+            "size": 29382675,
+            "browserDownloadUrl": "https://github.com/hlning/cmbok_app/releases/download/V2.0.9/Cmbok_ios.ipa"
+          },
+          {
             "name": "Cmbok_setup_2.0.9.exe",
-            "size": 26984211,
+            "size": 27025719,
             "browserDownloadUrl": "https://github.com/hlning/cmbok_app/releases/download/V2.0.9/Cmbok_setup_2.0.9.exe"
           }
         ]
@@ -305,7 +310,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 392,
+      "stars": 393,
       "sourceUpdatedAt": "2026-10-12T17:10:57Z",
       "githubArchived": false,
       "release": {
@@ -501,26 +506,71 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 268,
-      "sourceUpdatedAt": "2026-10-08T09:04:28Z",
+      "stars": 269,
+      "sourceUpdatedAt": "2026-10-13T03:29:45Z",
       "githubArchived": false,
       "release": {
-        "name": "multiplatform-test",
-        "tagName": "multiplatform-test",
-        "prerelease": false,
-        "publishedAt": "2026-10-08T09:04:29Z",
-        "createdAt": "2026-10-08T08:41:08Z",
-        "body": "多平台测试包（未签名，供侧载/自签验证）：\n\n- **鸿蒙**: arm64-v8a，未签名，hdc install 安装需关闭签名校验或用 hap-sign-tool 自签\n- **iOS**: SideStore/AltStore 自签侧载\n\n⚠️ 均为未签名产物，仅供多平台功能测试。",
+        "name": "3.26.10131036",
+        "tagName": "beta",
+        "prerelease": true,
+        "publishedAt": "2026-10-13T02:50:35Z",
+        "createdAt": "2026-10-13T02:14:37Z",
+        "body": "## 更新日志\n- feat(ui): 规则管理列表按窗口宽度分列                                     (9488a64ed)\n- fix(toolbox): 书源工具箱响应区支持 HTML 树状图                           (5389598b3)\n- fix(textfield): 提示与正文落点统一到固定顶距                             (02dab93da)\n- refactor(rulesub): 订阅项徽标移入名称行                                  (b9cfe472f)\n- fix(readaloud): 定时档位改回选择对话框                                   (f3a59f622)\n- feat(rulesub): 规则订阅支持每天自动更新                                  (1e3cc5d55)\n- fix(import): 替换/字典/筛选规则默认勾选补上内容有变化的项                (907a5422f)\n- refactor(ui): 下拉选择统一到同一外观                                     (50ad5fe4e)\n- refactor(config): 桌面端托盘开关上移到自动刷新下方                       (53c657dc3)\n- refactor(config): 校验设置去掉设置页入口, 三端补回校验书源入口           (a10f8612a)",
         "assets": [
           {
-            "name": "legado-3.26.10081641-ios-unsigned.ipa",
-            "size": 33398283,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.10081641-ios-unsigned.ipa"
+            "name": "all.apk",
+            "size": 18968093,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all.apk"
           },
           {
-            "name": "legado-3.26.100817-unsigned.hap",
-            "size": 69026169,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.100817-unsigned.hap"
+            "name": "all_releaseA.apk",
+            "size": 18968097,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all_releaseA.apk"
+          },
+          {
+            "name": "arm64.apk",
+            "size": 11894770,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64.apk"
+          },
+          {
+            "name": "arm64_releaseA.apk",
+            "size": 11894774,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64_releaseA.apk"
+          },
+          {
+            "name": "armv7.apk",
+            "size": 11177800,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7.apk"
+          },
+          {
+            "name": "armv7_releaseA.apk",
+            "size": 11177804,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7_releaseA.apk"
+          },
+          {
+            "name": "linux_x64.deb",
+            "size": 102619410,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.deb"
+          },
+          {
+            "name": "linux_x64.rpm",
+            "size": 109542755,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.rpm"
+          },
+          {
+            "name": "macos_arm64.dmg",
+            "size": 114176642,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/macos_arm64.dmg"
+          },
+          {
+            "name": "windows_x64.msi",
+            "size": 105337355,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64.msi"
+          },
+          {
+            "name": "windows_x64_portable.zip",
+            "size": 104105375,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64_portable.zip"
           }
         ]
       },
@@ -675,7 +725,7 @@
       "repo": "DandanLLab/mr",
       "term": "legado-branch-mr",
       "note": "Flutter 跨平台重写，兼容 Legado 书源规则，发布 Android/iOS/鸿蒙 安装包。",
-      "stars": 105,
+      "stars": 106,
       "sourceUpdatedAt": "2026-09-12T06:24:42Z",
       "githubArchived": false,
       "release": {
@@ -719,7 +769,7 @@
       "repo": "ovo066/MoRead",
       "term": "legado-branch-moread",
       "note": "原生 Android 本地小说阅读器 + AI 伴读。",
-      "stars": 86,
+      "stars": 87,
       "sourceUpdatedAt": "2026-10-11T10:32:17Z",
       "githubArchived": false,
       "release": {
@@ -979,7 +1029,7 @@
       "repo": "syq17496152/legado",
       "term": "legado-branch-m",
       "stars": 23,
-      "sourceUpdatedAt": "2026-10-12T21:28:34Z",
+      "sourceUpdatedAt": "2026-10-13T01:33:41Z",
       "githubArchived": false,
       "release": {
         "name": "3.26.100915",
