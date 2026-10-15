@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:17:48.162Z",
+  "generatedAt": "2026-10-15T00:34:42.097Z",
   "branches": [
     {
       "id": "c",
@@ -406,6 +406,39 @@
       "forkOf": "Rimchars/legado"
     },
     {
+      "id": "shutiao",
+      "name": "薯条版",
+      "tag": "shutiao",
+      "repo": "huajideshutiao/legado",
+      "term": "legado-branch-shutiao",
+      "stars": 275,
+      "sourceUpdatedAt": "2026-10-13T03:51:22Z",
+      "githubArchived": false,
+      "release": {
+        "name": "multiplatform-test",
+        "tagName": "multiplatform-test",
+        "prerelease": false,
+        "publishedAt": "2026-10-13T03:51:22Z",
+        "createdAt": "2026-10-13T03:29:25Z",
+        "body": "多平台测试包（未签名，供侧载/自签验证）：\n\n- **鸿蒙**: arm64-v8a，未签名，hdc install 安装需关闭签名校验或用 hap-sign-tool 自签\n- **iOS**: SideStore/AltStore 自签侧载\n\n⚠️ 均为未签名产物，仅供多平台功能测试。",
+        "assets": [
+          {
+            "name": "legado-3.26.10131131-ios-unsigned.ipa",
+            "size": 33462265,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.10131131-ios-unsigned.ipa"
+          },
+          {
+            "name": "legado-3.26.101312-unsigned.hap",
+            "size": 70827193,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.101312-unsigned.hap"
+          }
+        ]
+      },
+      "errors": [],
+      "fork": true,
+      "forkOf": "gedoor/legado"
+    },
+    {
       "id": "max",
       "name": "阅读 MAX怣疯版",
       "tag": "max",
@@ -446,39 +479,6 @@
       "forkOf": "Luoyacheng/legado-E",
       "abandoned": "弃坑",
       "abandonedReason": "作者已声明不再维护"
-    },
-    {
-      "id": "shutiao",
-      "name": "薯条版",
-      "tag": "shutiao",
-      "repo": "huajideshutiao/legado",
-      "term": "legado-branch-shutiao",
-      "stars": 274,
-      "sourceUpdatedAt": "2026-10-13T03:51:22Z",
-      "githubArchived": false,
-      "release": {
-        "name": "multiplatform-test",
-        "tagName": "multiplatform-test",
-        "prerelease": false,
-        "publishedAt": "2026-10-13T03:51:22Z",
-        "createdAt": "2026-10-13T03:29:25Z",
-        "body": "多平台测试包（未签名，供侧载/自签验证）：\n\n- **鸿蒙**: arm64-v8a，未签名，hdc install 安装需关闭签名校验或用 hap-sign-tool 自签\n- **iOS**: SideStore/AltStore 自签侧载\n\n⚠️ 均为未签名产物，仅供多平台功能测试。",
-        "assets": [
-          {
-            "name": "legado-3.26.10131131-ios-unsigned.ipa",
-            "size": 33462265,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.10131131-ios-unsigned.ipa"
-          },
-          {
-            "name": "legado-3.26.101312-unsigned.hap",
-            "size": 70827193,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.101312-unsigned.hap"
-          }
-        ]
-      },
-      "errors": [],
-      "fork": true,
-      "forkOf": "gedoor/legado"
     },
     {
       "id": "tauri",
@@ -900,7 +900,7 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 37,
+      "stars": 38,
       "sourceUpdatedAt": "2026-10-08T00:51:35Z",
       "githubArchived": false,
       "release": {
