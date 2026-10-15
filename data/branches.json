@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T20:20:51.551Z",
+  "generatedAt": "2026-10-15T23:41:48.131Z",
   "branches": [
     {
       "id": "c",
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6505,
+      "stars": 6506,
       "sourceUpdatedAt": "2026-10-15T19:34:37Z",
       "githubArchived": false,
       "release": {
@@ -190,35 +190,35 @@
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
       "stars": 1508,
-      "sourceUpdatedAt": "2026-10-15T18:52:48Z",
+      "sourceUpdatedAt": "2026-10-15T23:38:43Z",
       "githubArchived": false,
       "release": {
-        "name": "legado_app_3.26101602",
+        "name": "legado_app_3.26101606",
         "tagName": "beta",
         "prerelease": true,
         "publishedAt": "2026-08-11T18:18:40Z",
-        "createdAt": "2026-10-15T18:44:11Z",
-        "body": "<!-- legado-version-code:38472 -->\n此版本为提交测试版，可能存在不稳定情况，升级前请备份数据。\n\n**2026/10/16**\n- 修复打开大型 jsLib 时 Intent 传输过大导致黑屏返回书源列表的问题\n\n",
+        "createdAt": "2026-10-15T22:04:34Z",
+        "body": "<!-- legado-version-code:38473 -->\n此版本为提交测试版，可能存在不稳定情况，升级前请备份数据。\n\n**2026/10/16**\n- 修复打开大型 jsLib 时 Intent 传输过大导致黑屏返回书源列表的问题\n- 超长 jsLib 改用安全编辑器，避免原生编辑器加载时黑屏退出\n\n",
         "assets": [
           {
-            "name": "legado_app_3.26101602_releaseA_vc38472.apk",
-            "size": 23143000,
-            "browserDownloadUrl": "https://github.com/LegadoTeam/legado/releases/download/beta/legado_app_3.26101602_releaseA_vc38472.apk"
+            "name": "legado_app_3.26101606_releaseA_vc38473.apk",
+            "size": 23143044,
+            "browserDownloadUrl": "https://github.com/LegadoTeam/legado/releases/download/beta/legado_app_3.26101606_releaseA_vc38473.apk"
           },
           {
-            "name": "legado_app_3.26101602_release_vc38472.apk",
-            "size": 23143002,
-            "browserDownloadUrl": "https://github.com/LegadoTeam/legado/releases/download/beta/legado_app_3.26101602_release_vc38472.apk"
+            "name": "legado_app_3.26101606_release_vc38473.apk",
+            "size": 23143049,
+            "browserDownloadUrl": "https://github.com/LegadoTeam/legado/releases/download/beta/legado_app_3.26101606_release_vc38473.apk"
           },
           {
-            "name": "legado_app_3.26101602_universal_releaseA_vc38472.apk",
-            "size": 29093829,
-            "browserDownloadUrl": "https://github.com/LegadoTeam/legado/releases/download/beta/legado_app_3.26101602_universal_releaseA_vc38472.apk"
+            "name": "legado_app_3.26101606_universal_releaseA_vc38473.apk",
+            "size": 29093873,
+            "browserDownloadUrl": "https://github.com/LegadoTeam/legado/releases/download/beta/legado_app_3.26101606_universal_releaseA_vc38473.apk"
           },
           {
-            "name": "legado_app_3.26101602_universal_release_vc38472.apk",
-            "size": 29093828,
-            "browserDownloadUrl": "https://github.com/LegadoTeam/legado/releases/download/beta/legado_app_3.26101602_universal_release_vc38472.apk"
+            "name": "legado_app_3.26101606_universal_release_vc38473.apk",
+            "size": 29093872,
+            "browserDownloadUrl": "https://github.com/LegadoTeam/legado/releases/download/beta/legado_app_3.26101606_universal_release_vc38473.apk"
           }
         ]
       },
@@ -266,7 +266,7 @@
       "repo": "hlning/cmbok_app",
       "term": "legado-branch-cmbok",
       "note": "独立多平台应用，发布 Windows / iOS / 安卓安装包，兼容阅读书源。",
-      "stars": 444,
+      "stars": 445,
       "sourceUpdatedAt": "2026-10-11T13:14:05Z",
       "githubArchived": false,
       "release": {
@@ -984,7 +984,7 @@
       "repo": "syq17496152/legado",
       "term": "legado-branch-m",
       "stars": 23,
-      "sourceUpdatedAt": "2026-10-15T20:05:52Z",
+      "sourceUpdatedAt": "2026-10-15T22:46:00Z",
       "githubArchived": false,
       "release": {
         "name": "3.26.100915",
