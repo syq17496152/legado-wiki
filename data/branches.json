@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T19:22:57.499Z",
+  "generatedAt": "2026-10-17T22:17:45.760Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47129,
+      "stars": 47130,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1545,
+      "stars": 1547,
       "sourceUpdatedAt": "2026-10-16T16:36:09Z",
       "githubArchived": false,
       "release": {
