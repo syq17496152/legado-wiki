@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T06:13:28.050Z",
+  "generatedAt": "2026-10-19T13:10:54.959Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47136,
+      "stars": 47140,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,8 +85,8 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6548,
-      "sourceUpdatedAt": "2026-10-18T20:29:10Z",
+      "stars": 6557,
+      "sourceUpdatedAt": "2026-10-19T07:20:29Z",
       "githubArchived": false,
       "release": {
         "name": "Release 3.26.16",
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2927,
+      "stars": 2930,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -189,7 +189,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1573,
+      "stars": 1582,
       "sourceUpdatedAt": "2026-10-18T11:11:34Z",
       "githubArchived": false,
       "release": {
@@ -266,7 +266,7 @@
       "repo": "hlning/cmbok_app",
       "term": "legado-branch-cmbok",
       "note": "独立多平台应用，发布 Windows / iOS / 安卓安装包，兼容阅读书源。",
-      "stars": 459,
+      "stars": 460,
       "sourceUpdatedAt": "2026-10-11T13:14:05Z",
       "githubArchived": false,
       "release": {
@@ -411,71 +411,26 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 293,
-      "sourceUpdatedAt": "2026-10-19T05:48:47Z",
+      "stars": 295,
+      "sourceUpdatedAt": "2026-10-19T06:20:14Z",
       "githubArchived": false,
       "release": {
-        "name": "3.26.10191334",
-        "tagName": "beta",
-        "prerelease": true,
-        "publishedAt": "2026-10-19T05:48:48Z",
+        "name": "multiplatform-test",
+        "tagName": "multiplatform-test",
+        "prerelease": false,
+        "publishedAt": "2026-10-19T06:20:14Z",
         "createdAt": "2026-10-19T05:39:12Z",
-        "body": "## 更新日志\n- docs(帮助): 更新日志补 10/16-10/19 条目并恢复 10/04-10/07 段             (f7d4b208c)\n- feat(js): 书源脚本支持上传二进制请求体                                   (8174cc335)\n- refactor(audio): 边缘光效的绘制与封面配色各自独立                        (70be45934)\n- fix(search): 拖动书架命中与历史列表时收起键盘                            (10d08cd99)\n- fix(lyric): 逐字歌词的译文与偏移不再丢                                   (ad3d1e6a4)\n- fix(audio): 暂停后两条光效不再冻在最后一帧亮度                           (bc11490ac)\n- fix(ui): 安卓 12 以下的背景模糊不再是空操作                              (ab0e451cf)\n- fix(http): 自动过 Cloudflare 挑战不再一两秒就放弃                        (8807e0309)\n- feat(lyric): 歌词支持 QQ 音乐 QRC 逐字格式并按字时长填色                 (459c5937f)\n- feat(audio): 歌词行滚动与旧行退场改用分段计时的缓动曲线                  (6949b2566)\n- fix(search): 搜索与探索条目显示书架标记并在聚焦时给出命中与历史          (259f50764)\n- feat(audio): 歌词当前行入场的辉光带过冲回弹                              (36be0bf29)\n- feat(audio): 播放页加入随音频起伏的边缘光效与轻微浮动的模糊背景          (1d4a40852)",
+        "body": "多平台测试包（未签名，供侧载/自签验证）：\n\n- **鸿蒙**: arm64-v8a，未签名，hdc install 安装需关闭签名校验或用 hap-sign-tool 自签\n- **iOS**: SideStore/AltStore 自签侧载\n\n⚠️ 均为未签名产物，仅供多平台功能测试。",
         "assets": [
           {
-            "name": "all.apk",
-            "size": 18976796,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all.apk"
+            "name": "legado-3.26.101914-unsigned.hap",
+            "size": 71280989,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.101914-unsigned.hap"
           },
           {
-            "name": "all_releaseA.apk",
-            "size": 18976796,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/all_releaseA.apk"
-          },
-          {
-            "name": "arm64.apk",
-            "size": 11903473,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64.apk"
-          },
-          {
-            "name": "arm64_releaseA.apk",
-            "size": 11903473,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/arm64_releaseA.apk"
-          },
-          {
-            "name": "armv7.apk",
-            "size": 11186503,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7.apk"
-          },
-          {
-            "name": "armv7_releaseA.apk",
-            "size": 11186503,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/armv7_releaseA.apk"
-          },
-          {
-            "name": "linux_x64.deb",
-            "size": 102808074,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.deb"
-          },
-          {
-            "name": "linux_x64.rpm",
-            "size": 109728937,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/linux_x64.rpm"
-          },
-          {
-            "name": "macos_arm64.dmg",
-            "size": 114433259,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/macos_arm64.dmg"
-          },
-          {
-            "name": "windows_x64.msi",
-            "size": 105529869,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64.msi"
-          },
-          {
-            "name": "windows_x64_portable.zip",
-            "size": 104296431,
-            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/beta/windows_x64_portable.zip"
+            "name": "legado-3.26.10191409-ios-unsigned.ipa",
+            "size": 33657867,
+            "browserDownloadUrl": "https://github.com/huajideshutiao/legado/releases/download/multiplatform-test/legado-3.26.10191409-ios-unsigned.ipa"
           }
         ]
       },
@@ -585,30 +540,30 @@
       "repo": "skybbk1001/legadoT",
       "term": "legado-branch-t",
       "stars": 143,
-      "sourceUpdatedAt": "2026-10-19T06:02:51Z",
+      "sourceUpdatedAt": "2026-10-19T12:07:09Z",
       "githubArchived": false,
       "release": {
-        "name": "legado_app_3.26.101913",
+        "name": "legado_app_3.26.101920",
         "tagName": "beta",
         "prerelease": true,
-        "publishedAt": "2026-10-19T06:02:52Z",
-        "createdAt": "2026-10-19T05:52:22Z",
-        "body": "## 更新日志\n\n自上一测试版以来的全部更新:\n\n- test: audit migrated delegate method surfaces\n- test: lock Rhino delegate API compatibility\n- fix: expose source storage to login v2 java facade\n- test: add executable book source regression coverage\n- fix: audit and harden app UI themes\n- 默认关闭nostr段评，优化展开菜单色彩显示\n- perf: remove unused release resources\n",
+        "publishedAt": "2026-10-19T12:07:09Z",
+        "createdAt": "2026-10-19T11:42:31Z",
+        "body": "## 更新日志\n\n- ci: preserve x86_64 APK artifact names\n- build: clean release compilation warnings\n- ci: verify R8 reflection contracts\n- ci: migrate workflows to Node 24 actions\n- test: audit migrated delegate method surfaces\n- test: lock Rhino delegate API compatibility\n- fix: expose source storage to login v2 java facade\n- test: add executable book source regression coverage\n- fix: audit and harden app UI themes\n- 默认关闭nostr段评，优化展开菜单色彩显示\n- perf: remove unused release resources\n- fix: restore source Java bridge and data URL parsing\n- docs: prepare beta release notes and guides\n- fix: size reading record rows by their tallest text\n- fix: address discovery tools, login navigation and reading records\n- ci: run test and release builds only on manual dispatch\n- Merge remote-tracking branch 'newdea/feat/nostr-paragraph-comments'\n- fix(review): 段评发布成功后原地升级占位，不再整页重载\n- fix(review): 段评占位项与待发布表对账，治发送成功后残留「发送中」\n- fix(read): 去掉章末占位行，未定位段评入口改为最后一段双气泡\n",
         "assets": [
           {
-            "name": "legado_app_3.26.10191355_arm64-v8a_release.apk",
-            "size": 17266560,
-            "browserDownloadUrl": "https://github.com/skybbk1001/legadoT/releases/download/beta/legado_app_3.26.10191355_arm64-v8a_release.apk"
+            "name": "legado_app_3.26.10192000_arm64-v8a_release.apk",
+            "size": 17266551,
+            "browserDownloadUrl": "https://github.com/skybbk1001/legadoT/releases/download/beta/legado_app_3.26.10192000_arm64-v8a_release.apk"
           },
           {
-            "name": "legado_app_3.26.10191355_armeabi-v7a_release.apk",
-            "size": 16544284,
-            "browserDownloadUrl": "https://github.com/skybbk1001/legadoT/releases/download/beta/legado_app_3.26.10191355_armeabi-v7a_release.apk"
+            "name": "legado_app_3.26.10192000_armeabi-v7a_release.apk",
+            "size": 16544286,
+            "browserDownloadUrl": "https://github.com/skybbk1001/legadoT/releases/download/beta/legado_app_3.26.10192000_armeabi-v7a_release.apk"
           },
           {
-            "name": "legado_app_3.26.10191355_universal_release.apk",
-            "size": 17512397,
-            "browserDownloadUrl": "https://github.com/skybbk1001/legadoT/releases/download/beta/legado_app_3.26.10191355_universal_release.apk"
+            "name": "legado_app_3.26.10192000_x86_64_release.apk",
+            "size": 17512396,
+            "browserDownloadUrl": "https://github.com/skybbk1001/legadoT/releases/download/beta/legado_app_3.26.10192000_x86_64_release.apk"
           },
           {
             "name": "version.json",
@@ -627,8 +582,8 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 137,
-      "sourceUpdatedAt": "2026-10-18T18:31:03Z",
+      "stars": 139,
+      "sourceUpdatedAt": "2026-10-19T12:21:35Z",
       "githubArchived": false,
       "release": {
         "name": "legado_ng_3.26.101300",
@@ -769,7 +724,7 @@
       "repo": "ovo066/MoRead",
       "term": "legado-branch-moread",
       "note": "原生 Android 本地小说阅读器 + AI 伴读。",
-      "stars": 105,
+      "stars": 106,
       "sourceUpdatedAt": "2026-10-13T08:40:08Z",
       "githubArchived": false,
       "release": {
@@ -866,7 +821,7 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 50,
+      "stars": 52,
       "sourceUpdatedAt": "2026-10-19T00:20:50Z",
       "githubArchived": false,
       "release": {
@@ -980,7 +935,7 @@
       "repo": "nexhub-app/Nexhub",
       "term": "legado-branch-nexhub",
       "note": "独立多平台应用，动漫 / 漫画 / 小说 / 影视聚合，发布安卓 / Linux / macOS / Windows 安装包。",
-      "stars": 47,
+      "stars": 48,
       "sourceUpdatedAt": "2026-10-19T02:18:50Z",
       "githubArchived": false,
       "release": {
@@ -1087,7 +1042,7 @@
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
       "stars": 20,
-      "sourceUpdatedAt": "2026-10-17T12:48:55Z",
+      "sourceUpdatedAt": "2026-10-19T12:43:02Z",
       "githubArchived": false,
       "release": {
         "name": "Pre-release 3.26.17-beta.32",
@@ -1256,35 +1211,35 @@
       "upstreamUrl": "https://gitee.com/lyj09x/legado",
       "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
       "stars": 4,
-      "sourceUpdatedAt": "2026-10-18T01:12:56+08:00",
+      "sourceUpdatedAt": "2026-10-19T20:45:49+08:00",
       "githubArchived": false,
       "release": {
-        "name": "阅读_E-ink_3.26.101721",
-        "tagName": "阅读_E-ink_3.26.101721",
+        "name": "阅读_E-ink_3.26.101921",
+        "tagName": "阅读_E-ink_3.26.101921",
         "prerelease": false,
-        "publishedAt": "2026-10-17T21:45:47+08:00",
-        "createdAt": "2026-10-17T21:45:47+08:00",
-        "body": "- 掌阅波纹移到界面\r\n- 新增在线制作样式\r\n- 支持直接导出样式\r\n- 支持直接导入样式\r\n- 样式背景支持编码\r\n- 标题样式支持正则\r\n- 修复自带文件闪退\r\n- 修复已知新增未知",
+        "publishedAt": "2026-10-19T20:45:49+08:00",
+        "createdAt": "2026-10-19T20:45:49+08:00",
+        "body": "- 新增字数统计\r\n- 修复标题出错\r\n- 修复已知问题\r\n- 新增未知问题",
         "assets": [
           {
-            "name": "阅读_E-ink_3.26.101721.apk",
-            "size": 20949087,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.101721/%E9%98%85%E8%AF%BB_E-ink_3.26.101721.apk"
+            "name": "阅读_E-ink_3.26.101921.apk",
+            "size": 20953241,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.101921/%E9%98%85%E8%AF%BB_E-ink_3.26.101921.apk"
           },
           {
-            "name": "阅读_magisk_3.26.101721.zip",
-            "size": 22694563,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.101721/%E9%98%85%E8%AF%BB_magisk_3.26.101721.zip"
+            "name": "阅读_magisk_3.26.101921.zip",
+            "size": 22695267,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.101921/%E9%98%85%E8%AF%BB_magisk_3.26.101921.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.101721.zip",
+            "name": "阅读_E-ink_3.26.101921.zip",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.101721.zip"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.101921.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.101721.tar.gz",
+            "name": "阅读_E-ink_3.26.101921.tar.gz",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.101721.tar.gz"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.101921.tar.gz"
           }
         ]
       },
