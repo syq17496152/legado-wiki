@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T23:11:17.168Z",
+  "generatedAt": "2026-10-25T01:08:38.144Z",
   "branches": [
     {
       "id": "c",
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6632,
+      "stars": 6633,
       "sourceUpdatedAt": "2026-10-24T20:42:47Z",
       "githubArchived": false,
       "release": {
@@ -305,7 +305,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 401,
+      "stars": 402,
       "sourceUpdatedAt": "2026-10-21T09:06:00Z",
       "githubArchived": false,
       "release": {
@@ -534,21 +534,21 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 150,
-      "sourceUpdatedAt": "2026-10-24T19:02:14Z",
+      "stars": 151,
+      "sourceUpdatedAt": "2026-10-25T00:53:59Z",
       "githubArchived": false,
       "release": {
-        "name": "legado_ng_3.26.101300",
-        "tagName": "3.26.101300",
+        "name": "legado_ng_3.26.102508",
+        "tagName": "3.26.102508",
         "prerelease": false,
-        "publishedAt": "2026-10-12T16:29:26Z",
-        "createdAt": "2026-10-12T15:50:15Z",
-        "body": "### 更新内容\n* 修复小米设备阅读自定义字体被系统字重处理替换\n* 优化书源QQ登录跳转并修复授权后返回\n* 完善书籍编辑顶栏液态玻璃与类型 Dock 亮白底\n* 按有效发布记录修正正式版与测试版更新说明\n* 补齐 EPUB 惯性滚动并完善中断清理\n* 修复 EPUB 朗读翻页时的首屏闪回\n* 修复按页朗读切换后的字幕与语音错位\n* 修复 EPUB 系统 TTS 跨页和末页跟随\n* 优化阅读目录与书签工具栏排版\n* 修复手动书籍类型被书架刷新覆盖\n* 优化听书小窗大窗口书名与章节排版\n* 修复js书源字形库在编辑保存时丢失\n* 重构漫画阅读界面\n* 重构视频播放界面并修复小窗与续播边界\n* 移除首页组件抽屉的关闭按钮\n* 修复发现页内容点击无响应\n* 修复书源嵌套脚本求值的作用域恢复\n* 修复书源缓存清理误删相似地址数据\n* 完善订阅源导出分享并修复导出抽屉下拉关闭\n* 新增今日书讯自动刷新开关\n* 居中显示抽屉背景选项文字\n\n",
+        "publishedAt": "2026-10-25T00:53:59Z",
+        "createdAt": "2026-10-25T00:39:33Z",
+        "body": "### 更新内容\n* 优化蓝色大肥鱼动画\n* 完善换源设置并新增同类型书源过滤\n* 完善资源菜单适配与本地 EPUB 缓存显示\n* 修复视频全屏显示并优化播放页交互\n* 优化 EPUB 连续滚动与跨章窗口复用\n* 修复 EPUB 来源空白映射导致目录显示失败\n* 修复书源登录表单零宽测量崩溃\n* 修正并行听读总时长统计并保留历史数据\n* 完善阅读标题和图片页眉页脚及样式备份\n* 支持 EPUB 高级阅读样式导出与回导\n* 优化阅读调整弹窗与抽屉往返\n* 优化全屏目录与书签浏览体验\n* 新增首页亮白卡片皮肤\n* 调整首页默认组件尺寸与顺序\n* 内置微软翻译并精简中文音色，默认禁用 Edge TTS\n* 新增听书背景音乐与多平台曲库\n* 修复连续搜索时结果列表并发修改崩溃\n* 优化搜索范围弹窗样式\n* 整合缓存能力到书架管理\n* 完善 WebDAV 书籍往返与添加书籍菜单图标\n* 恢复高亮日夜配色并支持预设独立编辑\n* 修复发现书源自动刷新与下拉菜单定位\n* 支持书籍多分组与统一分组操作\n* 书架管理卡片共用书架外观设置\n* 优化听书抽屉配色与背景音乐控件\n* 适配手机和平板听书布局\n\n",
         "assets": [
           {
-            "name": "legado_NG_3.26.10130014_release.apk",
-            "size": 43292496,
-            "browserDownloadUrl": "https://github.com/joestar817/legado_NG/releases/download/3.26.101300/legado_NG_3.26.10130014_release.apk"
+            "name": "legado_NG_3.26.10250841_release.apk",
+            "size": 47351090,
+            "browserDownloadUrl": "https://github.com/joestar817/legado_NG/releases/download/3.26.102508/legado_NG_3.26.10250841_release.apk"
           }
         ]
       },
@@ -675,7 +675,7 @@
       "repo": "DandanLLab/mr",
       "term": "legado-branch-mr",
       "note": "Flutter 跨平台重写，兼容 Legado 书源规则，发布 Android/iOS/鸿蒙 安装包。",
-      "stars": 113,
+      "stars": 112,
       "sourceUpdatedAt": "2026-09-12T06:24:42Z",
       "githubArchived": false,
       "release": {
@@ -1028,7 +1028,7 @@
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
       "stars": 22,
-      "sourceUpdatedAt": "2026-10-24T14:48:48Z",
+      "sourceUpdatedAt": "2026-10-25T01:06:40Z",
       "githubArchived": false,
       "release": {
         "name": "Pre-release 3.26.17-beta.38",
@@ -1285,24 +1285,24 @@
       "allowNoRelease": true,
       "note": "预备观察，未达收录标准，仅防跑路备份，不展示不计数。",
       "stars": 4,
-      "sourceUpdatedAt": "2026-10-24T12:39:56Z",
+      "sourceUpdatedAt": "2026-10-24T23:50:13Z",
       "githubArchived": false,
       "release": {
         "name": "1.0-beta",
         "tagName": "v1.0-beta",
         "prerelease": true,
-        "publishedAt": "2026-10-24T05:02:12Z",
-        "createdAt": "2026-10-24T04:51:52Z",
-        "body": "## 1.0 版本预发布\n\n应用更名为「阅读 / legado」（随系统语言切换），版本号重置为 1.0。\n\n### 主要更新\n- 修复子页面按系统返回键直接退回桌面的问题\n- UI 与配色重构（钢蓝低饱和主题）及流畅度优化\n- 新增 PDF 阅读、legado:// 深链导入、主题导入导出与二维码分享、键盘助手、章节字数统计\n- 全新应用图标（自适应图标 + Android 13 monochrome themed 图标）\n- 修复书源 URL 选项解析、EPUB 乱码等问题\n- 83 个测试全过，CI 增加 analyze / test 门禁\n\n### 下载\n- `app-universal-release.apk` - 通用版（支持所有架构）\n- `app-arm64-release.apk` - arm64 专用版（更小）\n\n- 提交: 0b1e950e991fb3894eea5a309a101ad9ba463ee7\n- 分支: main\n\n> 此为自动构建的预发布版本。\n",
+        "publishedAt": "2026-10-24T23:50:14Z",
+        "createdAt": "2026-10-24T23:40:15Z",
+        "body": "## 1.0 版本预发布\n\n应用更名为「阅读 / legado」（随系统语言切换），版本号重置为 1.0。\n\n### 主要更新\n- 修复子页面按系统返回键直接退回桌面的问题\n- UI 与配色重构（钢蓝低饱和主题）及流畅度优化\n- 新增 PDF 阅读、legado:// 深链导入、主题导入导出与二维码分享、键盘助手、章节字数统计\n- 全新应用图标（自适应图标 + Android 13 monochrome themed 图标）\n- 修复书源 URL 选项解析、EPUB 乱码等问题\n- 83 个测试全过，CI 增加 analyze / test 门禁\n\n### 下载\n- `app-universal-release.apk` - 通用版（支持所有架构）\n- `app-arm64-release.apk` - arm64 专用版（更小）\n\n- 提交: 1a86e100ddcbd229c5f9c7b1fdd8471a3878e14c\n- 分支: main\n\n> 此为自动构建的预发布版本。\n",
         "assets": [
           {
             "name": "app-arm64-release.apk",
-            "size": 27823359,
+            "size": 28830274,
             "browserDownloadUrl": "https://github.com/ReTyne/legado-Klys/releases/download/v1.0-beta/app-arm64-release.apk"
           },
           {
             "name": "app-universal-release.apk",
-            "size": 48460308,
+            "size": 49681976,
             "browserDownloadUrl": "https://github.com/ReTyne/legado-Klys/releases/download/v1.0-beta/app-universal-release.apk"
           }
         ]
