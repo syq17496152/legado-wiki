@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T01:08:38.144Z",
+  "generatedAt": "2026-10-25T06:05:35.885Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47159,
+      "stars": 47158,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,36 +85,36 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6633,
-      "sourceUpdatedAt": "2026-10-24T20:42:47Z",
+      "stars": 6640,
+      "sourceUpdatedAt": "2026-10-25T05:57:00Z",
       "githubArchived": false,
       "release": {
-        "name": "Release 3.26.18",
-        "tagName": "3.26.18",
+        "name": "Release 3.26.19",
+        "tagName": "3.26.19",
         "prerelease": false,
-        "publishedAt": "2026-10-20T17:47:56Z",
-        "createdAt": "2026-10-20T17:33:24Z",
-        "body": "### 更新内容\n\n* 咕噜噜\n* feat: 阅读界面优化\n* feat: 添加阻止书源打开选项 在搞基里\n* feat:优化听书界面\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻 (#2447)\n* fix(test): 移除ReadBookViewModel多余空行以满足2748行架构测试上限\n* fix(readaloud): 修复HTTP朗读在当前章未完成时抢占预合成导致的断流卡顿\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻\n* fix(reader): keep word spaces at line end when wrapping English text\n* feat: 呱\n* feat: 呱\n* feat: 优化\n* feat: 优化\n* fix(read-aloud): preserve pause across paragraph resume\n* fix(reader): 角色胶囊与整串标点不再把一行顶出空洞\n* fix(read-aloud): 段落间隔不再重建本章合成任务，纯符号段不再被跳过\n\n## What's Changed\n* fix(read-aloud): 段落间隔不再重建本章合成任务；reader: 胶囊与标点串不再顶出空洞 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2443\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻 by @ISuuuu in https://github.com/HapeLee/legado-with-MD3/pull/2447\n* fix(readaloud): 修复HTTP朗读在当前章未完成时抢占预合成导致的断流卡顿 by @ISuuuu in https://github.com/HapeLee/legado-with-MD3/pull/2448\n\n\n**Full Changelog**: https://github.com/HapeLee/legado-with-MD3/compare/3.26.16...3.26.18",
+        "publishedAt": "2026-10-25T05:56:58Z",
+        "createdAt": "2026-10-25T05:40:58Z",
+        "body": "### 更新内容\n\n* feat(explore): 发现顶栏改为单书源搜索入口，书源选择改为可筛选底部 sheet\n* fix(manga): 整章拼接超长条漫图拆段渲染，修复 Constraints 尺寸溢出崩溃 (#2475)\n* fix(book-info): 简介纯文本分支二次转义，& < > 显示为 HTML 实体 (#2466)\n* fix(reader): 开标点连同 Latin 单词整体换行，不再拆词\n* fix(book-info): useweb 简介经 FrameLayout 容器承载，规避 Vulkan drawVk 原生崩溃 (#2468)\n* feat(highlight): 高亮规则新增边框样式，预览渲染修复与示例句加长\n* feat(book-info): 关联书籍移至简介下方，支持无规则时按作者搜索兜底\n* fix(reader): 关联书籍位置\n* fix: 关联书籍调试之\n* opt: memory usage (#2478)\n* perf(reader): 排版宽度链路去装箱，字形级宽度改 FloatArray\n* feat(cast): AI 分配角色带上「过了几章没开口」与下一章开头 (#2476)\n* fix(cast): 人物档案读取被夹到 80 个，配音页与人物列表少列人 (#2474)\n* feat(ui): 搜索/发现/详情页封面按原图宽高比自适应（默认固定 5:7，设置可关） (#2473)\n* reader: cut pagination peak memory (streaming, merge, buffer release)\n* feat(reader): 可配置 AI 对话入口携带阅读上下文 & 修复换图标入口 IME 双重避让 (#2472)\n* feat(reader): add configurable AI chat entry with reading context\n* fix(ui): prevent double IME avoidance on alternate launcher activities\n* feat(reader): 阅读主题列表弹窗（网格/流式/管理/导入导出） (#2465)\n* feat(reader): 分页失败原因带上异常 message 与栈顶\n* fix(reader): 引号跨段时角色气泡不再把整章排版打挂\n* feat: 内置词典规则更新为汉典并清理失效的百度汉语规则 (#2450)\n* 咕噜噜\n* feat: 阅读界面优化\n* feat: 添加阻止书源打开选项 在搞基里\n* feat:优化听书界面\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻 (#2447)\n* fix(test): 移除ReadBookViewModel多余空行以满足2748行架构测试上限\n* fix(readaloud): 修复HTTP朗读在当前章未完成时抢占预合成导致的断流卡顿\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻\n\n## What's Changed\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻 by @ISuuuu in https://github.com/HapeLee/legado-with-MD3/pull/2447\n* fix(readaloud): 修复HTTP朗读在当前章未完成时抢占预合成导致的断流卡顿 by @ISuuuu in https://github.com/HapeLee/legado-with-MD3/pull/2448\n* feat: 内置词典规则更新为汉典并清理失效的百度汉语规则 by @xuezhi123go in https://github.com/HapeLee/legado-with-MD3/pull/2450\n* fix(reader): 引号跨段时角色气泡不再把整章排版打挂 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2461\n* feat(reader): 阅读主题列表弹窗（网格/流式/管理/导入导出） by @qmzd111 in https://github.com/HapeLee/legado-with-MD3/pull/2465\n* fix&feat: add configurable AI chat entry with reading context & fix IME double avoidance by @izumisagirii in https://github.com/HapeLee/legado-with-MD3/pull/2472\n* feat(ui): 搜索/发现/详情页封面按原图宽高比自适应（默认固定 5:7，设置可关） by @shaoyangz1 in https://github.com/HapeLee/legado-with-MD3/pull/2473\n* fix(cast): 人物档案读取被夹到 80 个，配音页与人物列表少列人 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2474\n* feat(cast): AI 分配角色带上「过了几章没开口」与下一章开头 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2476\n* opt: memory usage by @izumisagirii in https://github.com/HapeLee/legado-with-MD3/pull/2478\n\n## New Contributors\n* @xuezhi123go made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2450\n* @qmzd111 made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2465\n* @izumisagirii made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2472\n* @shaoyangz1 made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2473\n\n**Full Changelog**: https://github.com/HapeLee/legado-with-MD3/compare/3.26.17...3.26.19",
         "assets": [
           {
-            "name": "legado-3.26.18-arm64-v8a.apk",
-            "size": 20968045,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.18/legado-3.26.18-arm64-v8a.apk"
+            "name": "legado-3.26.19-arm64-v8a.apk",
+            "size": 21045187,
+            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.19/legado-3.26.19-arm64-v8a.apk"
           },
           {
-            "name": "legado-3.26.18-armeabi-v7a.apk",
-            "size": 20507865,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.18/legado-3.26.18-armeabi-v7a.apk"
+            "name": "legado-3.26.19-armeabi-v7a.apk",
+            "size": 20585002,
+            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.19/legado-3.26.19-armeabi-v7a.apk"
           },
           {
-            "name": "legado-3.26.18.apk",
-            "size": 27540521,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.18/legado-3.26.18.apk"
+            "name": "legado-3.26.19.apk",
+            "size": 27617669,
+            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.19/legado-3.26.19.apk"
           },
           {
             "name": "mapping.txt",
-            "size": 297503441,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.18/mapping.txt"
+            "size": 299278720,
+            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.19/mapping.txt"
           }
         ]
       },
@@ -156,7 +156,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2220,
+      "stars": 2222,
       "sourceUpdatedAt": "2026-10-22T12:49:20Z",
       "githubArchived": false,
       "release": {
@@ -184,7 +184,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1672,
+      "stars": 1675,
       "sourceUpdatedAt": "2026-10-22T14:50:31Z",
       "githubArchived": false,
       "release": {
@@ -261,7 +261,7 @@
       "repo": "hlning/cmbok_app",
       "term": "legado-branch-cmbok",
       "note": "独立多平台应用，发布 Windows / iOS / 安卓安装包，兼容阅读书源。",
-      "stars": 479,
+      "stars": 483,
       "sourceUpdatedAt": "2026-10-11T13:14:05Z",
       "githubArchived": false,
       "release": {
@@ -305,7 +305,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 402,
+      "stars": 403,
       "sourceUpdatedAt": "2026-10-21T09:06:00Z",
       "githubArchived": false,
       "release": {
@@ -406,7 +406,7 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 313,
+      "stars": 312,
       "sourceUpdatedAt": "2026-10-23T00:39:19Z",
       "githubArchived": false,
       "release": {
@@ -562,7 +562,7 @@
       "tag": "t",
       "repo": "skybbk1001/legadoT",
       "term": "legado-branch-t",
-      "stars": 147,
+      "stars": 148,
       "sourceUpdatedAt": "2026-10-24T16:17:42Z",
       "githubArchived": false,
       "release": {
@@ -988,46 +988,13 @@
       "forkOf": null
     },
     {
-      "id": "m",
-      "name": "阅读 M",
-      "tag": "m",
-      "repo": "syq17496152/legado",
-      "term": "legado-branch-m",
-      "stars": 23,
-      "sourceUpdatedAt": "2026-10-24T22:25:02Z",
-      "githubArchived": false,
-      "release": {
-        "name": "3.26.102113",
-        "tagName": "3.26.102113",
-        "prerelease": false,
-        "publishedAt": "2026-10-21T10:26:01Z",
-        "createdAt": "2026-10-21T08:23:56Z",
-        "body": "3.26.100915 → 3.26.102113\n\n### 新增\n- 「首屏加载模板」入口并入阅读设置\n- 书源编辑页恢复段评标签，可填写段评地址与规则\n- 自动任务编辑页「登录」恢复可用，移除无效「调试」入口\n- 新增内置主题「幽夜回廊」：暗黑游戏风、翻页联动\n- 内置主题补段落样式：首行加重、对白描边、场景居中\n- 新增首屏加载模板：多套画面可选，支持预览与导入导出\n- 备份与恢复新增书角角色及角色关系，换机不再丢失\n- 备份与恢复新增朗读配乐与音效，换机不再丢失\n- AI 设置新增「系统提示词」编辑入口\n\n### 优化\n- 更新说明改为按版本差异汇总，重复修复合并展示\n- 第三方素材许可页改为只陈述来源与授权状态\n- 内置主题页眉可更换场景，怪物与技能特效更丰富\n- 移除 11 套旧内置阅读主题，由新主题体系替代\n- 内置页面主题加入每页动效（流光、星点、光标、进度条）\n- 支持水墨屏下的页面模板配色与阅读页主题\n- 阅读页模板支持跟随所选翻页方式的过渡动画\n- EPUB 默认启用保真排版引擎（标题/加粗/字色/引用/图片）\n- 阅读页帮助新增「阅读页模板」入口与用法说明\n- 分页模板首页与续页使用不同版式，续页自动切正文版式\n- 应用模板首屏显示加载占位，不再短暂白屏\n- 霓虹夜行/星图/墨迹三套主题新增成套美术与专属字体\n- 模板管理页新增「作者指南」，关于页新增第三方素材许可\n- 支持阅读 Markdown 及导入分享的 Markdown 文件\n- 阅读页样式面板新增「页面模板」入口，可就地启用\n- 阅读页模板支持在线正文与本地 txt 书籍，设置即时生效\n- EPUB 固定版式、竖排与图库章节按出版方排版保真显示\n- EPUB 兼容更多出版方的旧式样式声明\n- 支持直接打开 Markdown 文件阅读（按标题分章）\n- 设置新增「阅读页面模板」管理页，可编辑与导入导出\n- 内置阅读模板增至 11 套，新增终端、玻璃拟态、星图等\n- 模板管理页可预览模板，支持滚动浏览与分页翻看\n- 应用模板后图表、公式与代码块均可正常渲染\n- 模板模式下正文按页框分屏显示，翻页可正常定位\n- 阅读页样式新增模板装饰强度与专注模式\n- 阅读模板在窄屏与横屏下自动收紧页眉与装饰\n- 应用模板后正文排版交由模板决定，原排版项置灰说明\n- 发现套件新增一键生成，无需从零手工配置即可开始使用\n- 套件编辑器的书源改为纵向可搜索列表，选源不再左右滑动翻找\n- 套件编辑器的标签改为按分组多选，选中与已选数量一目了然\n- 套件编辑器为每种控件补充说明与布局示意，切换类型会提示保留数量\n- 发现页套件菜单可直接添加控件，长按控件可编辑、上移下移或删除\n- 套件空态新增一键生成与手动创建入口，保存后提示回发现页查看\n- 更新说明改为按版本差异展示，不再罗列日期\n\n### 修复\n- 修复内置主题页眉角色被裁切、正文暗斑与遮挡装饰\n- 修复在线/离线文本书正文不分段、段落样式丢失\n- 首屏加载模板扩展到在线/离线文本书\n- 首屏加载模板改为每次进入阅读页只展示一次\n- 修复网络请求失败时错误处理自身崩溃的问题\n- 修复内置主题页眉页脚、翻页、尺寸与文字重叠问题\n- 修复 https 书源校验误连 80 端口、被误判\"域名不可达\"\n- 修复空壳源（无搜索无发现）被校验判为通过\n- 书源校验遇网络抖动会自动重试，减少可用源被误判失效\n- 修复网络解析到不可达地址导致的加载卡顿（书源/订阅源/图片均受益）\n- 修复导入主题的行高、字体、段距等样式不生效\n- 修复自定义界面字体、标题字体在部分页面不生效\n- 修复部分弹窗与页面在夜间/主题包下颜色不跟随主题\n- 修复沉浸式书籍信息页缺少「上传 WebDav」入口\n- 修复权限多次被拒后无提示、授权成功仍被静音\n- 修复设置页搜索「清理缓存」「清除网页数据」找不到设置项\n- 删除 HTTP TTS 语音配置后可进回收站找回\n- 修复「自动刷新媒体目录」开关无效果、漫画目录无法重取\n- 修复划线批注导出 Obsidian 无设置入口\n- 修复高级标题无法单独为某本书设置拆分规则\n- 修复书源规则解析遇异常规则时可能崩溃\n- 修复备份临时文件清理与备份冲突、可能丢失备份\n- 修复已保存划线不显示、换书后串到别的书\n- 修复目录更新或反转后划线位置错乱\n- 修复开启页面模板后手动划线不显示\n- 修复恢复损坏或空备份包时数据只恢复一半且无提示\n- 修复书架封面加载方式导致的滑动卡顿\n- 修复换源误删同书址候选、切换分组时卡顿\n- 校验后不再残留\"失效/重复源/规则为空\"等旧标记\n- 校验结果可一键导出，订阅源支持校验所选与自定义超时\n- 修复导入或保存书源时丢失段评规则\n- 修复导入主题后页面未铺满、两侧露出底色\n- 修复导入主题正文区偏小、底部显示不全\n- 修复页面模板续页正文偏少、底部大片空白\n- 修复页面模板翻页动画方向相反\n- 修复页面模板页眉高度、页脚页码与进度跟原版不一致\n- 修复页面模板模式下关键词与正则高亮不生效\n- 修复导入 Archive 主题后装饰、配色与动效跟原版不一致\n- 修复体积较大的 Archive 主题导入被拒\n- 修复页面模板每页最后一行文字被裁掉一半\n- 修复页面模板默认档位压低作者装饰透明度\n- 修复导入主题缺少每页进场动效状态\n- 修复 EPUB 排版异常时整章挤在一页、图片不显示\n- 修复 EPUB 正文未按阅读设置字号、出版方样式丢失\n- 修复 AI 工具开关配置异常膨胀导致设置变慢\n- 修复导入页面模板时文件选择弹框按钮被挤出屏幕\n- 修复页面模板短章节底部留白、页脚随正文漂移\n- 修复页面模板版式偏差：末行被裁、页眉页脚留白、正文区偏小\n- 修复部分模板页脚装饰带过高、左右留白偏大\n- 修复页面模板恢复阅读进度可能偏一页\n- 修复页面模板同一章节内每页行数不一致\n- 兼容 Archive 页面模板：样式/页码/翻页/页脚与装饰强度\n- 修复部分 EPUB 内嵌字体不显示\n- 修复渲染组件异常后反复重试导致翻页闪回\n- 修复图表与公式渲染完成后页码跳动\n- 修复应用模板后续页底部大片留白、页脚不贴底\n- 修复存储空间不足时章节缓存失败无提示\n- 修复复杂 Markdown 章节与超长单章阅读卡顿\n- 修复开启页面模板后只能翻两页、后续翻不动\n- 修复页面模板阅读进度每次从头开始\n- 修复页面模板模式下正文超出屏幕、可上下拖动\n- 修复关闭页面模板后再开启不生效\n- 支持导入其它应用导出的页面模板压缩包（ZIP）\n- 修复翻页后页码与边界判断可能失准\n- 修复模板翻页瞬间装饰动效与分页抢资源导致卡顿\n- 修复阅读组件异常时停在错误页，改为自动切回基础排版\n- 修复模板页脚页码与时间始终空白\n- 修复大体积模板编辑 CSS 保存后闪退、内容丢失\n- 修复 EPUB 内容异常时章节打不开，改为自动降级\n- 修复富渲染阅读页点击无响应、无法翻页\n- 修复套件编辑器书源较多时列表滚动卡顿、只显示部分书源的问题\n- 修复套件编辑器标签选中后无法分辨选中项的问题\n- 修复控件样式选项需左右滑动才能看全的问题\n- 修复控件未加载到内容时被误提示为尚未配置的问题\n- 修复一键生成可能生成出没有可用书源内容的套件的问题",
-        "assets": [
-          {
-            "name": "legado_miss_app_3.26.102113.apk",
-            "size": 31068597,
-            "browserDownloadUrl": "https://github.com/syq17496152/legado/releases/download/3.26.102113/legado_miss_app_3.26.102113.apk"
-          },
-          {
-            "name": "legado_miss_app_debug_3.26.102113.apk",
-            "size": 47080982,
-            "browserDownloadUrl": "https://github.com/syq17496152/legado/releases/download/3.26.102113/legado_miss_app_debug_3.26.102113.apk"
-          }
-        ]
-      },
-      "errors": [],
-      "fork": false,
-      "forkOf": null
-    },
-    {
       "id": "moben",
       "name": "墨本阅读",
       "tag": "moben",
       "repo": "Mupceet/EssentialReader",
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
-      "stars": 22,
+      "stars": 23,
       "sourceUpdatedAt": "2026-10-25T01:06:40Z",
       "githubArchived": false,
       "release": {
@@ -1057,6 +1024,39 @@
             "name": "moben-3.26.17-beta.38.apk",
             "size": 27989647,
             "browserDownloadUrl": "https://github.com/Mupceet/EssentialReader/releases/download/3.26.17-beta.38/moben-3.26.17-beta.38.apk"
+          }
+        ]
+      },
+      "errors": [],
+      "fork": false,
+      "forkOf": null
+    },
+    {
+      "id": "m",
+      "name": "阅读 M",
+      "tag": "m",
+      "repo": "syq17496152/legado",
+      "term": "legado-branch-m",
+      "stars": 23,
+      "sourceUpdatedAt": "2026-10-25T04:52:06Z",
+      "githubArchived": false,
+      "release": {
+        "name": "3.26.102113",
+        "tagName": "3.26.102113",
+        "prerelease": false,
+        "publishedAt": "2026-10-21T10:26:01Z",
+        "createdAt": "2026-10-21T08:23:56Z",
+        "body": "3.26.100915 → 3.26.102113\n\n### 新增\n- 「首屏加载模板」入口并入阅读设置\n- 书源编辑页恢复段评标签，可填写段评地址与规则\n- 自动任务编辑页「登录」恢复可用，移除无效「调试」入口\n- 新增内置主题「幽夜回廊」：暗黑游戏风、翻页联动\n- 内置主题补段落样式：首行加重、对白描边、场景居中\n- 新增首屏加载模板：多套画面可选，支持预览与导入导出\n- 备份与恢复新增书角角色及角色关系，换机不再丢失\n- 备份与恢复新增朗读配乐与音效，换机不再丢失\n- AI 设置新增「系统提示词」编辑入口\n\n### 优化\n- 更新说明改为按版本差异汇总，重复修复合并展示\n- 第三方素材许可页改为只陈述来源与授权状态\n- 内置主题页眉可更换场景，怪物与技能特效更丰富\n- 移除 11 套旧内置阅读主题，由新主题体系替代\n- 内置页面主题加入每页动效（流光、星点、光标、进度条）\n- 支持水墨屏下的页面模板配色与阅读页主题\n- 阅读页模板支持跟随所选翻页方式的过渡动画\n- EPUB 默认启用保真排版引擎（标题/加粗/字色/引用/图片）\n- 阅读页帮助新增「阅读页模板」入口与用法说明\n- 分页模板首页与续页使用不同版式，续页自动切正文版式\n- 应用模板首屏显示加载占位，不再短暂白屏\n- 霓虹夜行/星图/墨迹三套主题新增成套美术与专属字体\n- 模板管理页新增「作者指南」，关于页新增第三方素材许可\n- 支持阅读 Markdown 及导入分享的 Markdown 文件\n- 阅读页样式面板新增「页面模板」入口，可就地启用\n- 阅读页模板支持在线正文与本地 txt 书籍，设置即时生效\n- EPUB 固定版式、竖排与图库章节按出版方排版保真显示\n- EPUB 兼容更多出版方的旧式样式声明\n- 支持直接打开 Markdown 文件阅读（按标题分章）\n- 设置新增「阅读页面模板」管理页，可编辑与导入导出\n- 内置阅读模板增至 11 套，新增终端、玻璃拟态、星图等\n- 模板管理页可预览模板，支持滚动浏览与分页翻看\n- 应用模板后图表、公式与代码块均可正常渲染\n- 模板模式下正文按页框分屏显示，翻页可正常定位\n- 阅读页样式新增模板装饰强度与专注模式\n- 阅读模板在窄屏与横屏下自动收紧页眉与装饰\n- 应用模板后正文排版交由模板决定，原排版项置灰说明\n- 发现套件新增一键生成，无需从零手工配置即可开始使用\n- 套件编辑器的书源改为纵向可搜索列表，选源不再左右滑动翻找\n- 套件编辑器的标签改为按分组多选，选中与已选数量一目了然\n- 套件编辑器为每种控件补充说明与布局示意，切换类型会提示保留数量\n- 发现页套件菜单可直接添加控件，长按控件可编辑、上移下移或删除\n- 套件空态新增一键生成与手动创建入口，保存后提示回发现页查看\n- 更新说明改为按版本差异展示，不再罗列日期\n\n### 修复\n- 修复内置主题页眉角色被裁切、正文暗斑与遮挡装饰\n- 修复在线/离线文本书正文不分段、段落样式丢失\n- 首屏加载模板扩展到在线/离线文本书\n- 首屏加载模板改为每次进入阅读页只展示一次\n- 修复网络请求失败时错误处理自身崩溃的问题\n- 修复内置主题页眉页脚、翻页、尺寸与文字重叠问题\n- 修复 https 书源校验误连 80 端口、被误判\"域名不可达\"\n- 修复空壳源（无搜索无发现）被校验判为通过\n- 书源校验遇网络抖动会自动重试，减少可用源被误判失效\n- 修复网络解析到不可达地址导致的加载卡顿（书源/订阅源/图片均受益）\n- 修复导入主题的行高、字体、段距等样式不生效\n- 修复自定义界面字体、标题字体在部分页面不生效\n- 修复部分弹窗与页面在夜间/主题包下颜色不跟随主题\n- 修复沉浸式书籍信息页缺少「上传 WebDav」入口\n- 修复权限多次被拒后无提示、授权成功仍被静音\n- 修复设置页搜索「清理缓存」「清除网页数据」找不到设置项\n- 删除 HTTP TTS 语音配置后可进回收站找回\n- 修复「自动刷新媒体目录」开关无效果、漫画目录无法重取\n- 修复划线批注导出 Obsidian 无设置入口\n- 修复高级标题无法单独为某本书设置拆分规则\n- 修复书源规则解析遇异常规则时可能崩溃\n- 修复备份临时文件清理与备份冲突、可能丢失备份\n- 修复已保存划线不显示、换书后串到别的书\n- 修复目录更新或反转后划线位置错乱\n- 修复开启页面模板后手动划线不显示\n- 修复恢复损坏或空备份包时数据只恢复一半且无提示\n- 修复书架封面加载方式导致的滑动卡顿\n- 修复换源误删同书址候选、切换分组时卡顿\n- 校验后不再残留\"失效/重复源/规则为空\"等旧标记\n- 校验结果可一键导出，订阅源支持校验所选与自定义超时\n- 修复导入或保存书源时丢失段评规则\n- 修复导入主题后页面未铺满、两侧露出底色\n- 修复导入主题正文区偏小、底部显示不全\n- 修复页面模板续页正文偏少、底部大片空白\n- 修复页面模板翻页动画方向相反\n- 修复页面模板页眉高度、页脚页码与进度跟原版不一致\n- 修复页面模板模式下关键词与正则高亮不生效\n- 修复导入 Archive 主题后装饰、配色与动效跟原版不一致\n- 修复体积较大的 Archive 主题导入被拒\n- 修复页面模板每页最后一行文字被裁掉一半\n- 修复页面模板默认档位压低作者装饰透明度\n- 修复导入主题缺少每页进场动效状态\n- 修复 EPUB 排版异常时整章挤在一页、图片不显示\n- 修复 EPUB 正文未按阅读设置字号、出版方样式丢失\n- 修复 AI 工具开关配置异常膨胀导致设置变慢\n- 修复导入页面模板时文件选择弹框按钮被挤出屏幕\n- 修复页面模板短章节底部留白、页脚随正文漂移\n- 修复页面模板版式偏差：末行被裁、页眉页脚留白、正文区偏小\n- 修复部分模板页脚装饰带过高、左右留白偏大\n- 修复页面模板恢复阅读进度可能偏一页\n- 修复页面模板同一章节内每页行数不一致\n- 兼容 Archive 页面模板：样式/页码/翻页/页脚与装饰强度\n- 修复部分 EPUB 内嵌字体不显示\n- 修复渲染组件异常后反复重试导致翻页闪回\n- 修复图表与公式渲染完成后页码跳动\n- 修复应用模板后续页底部大片留白、页脚不贴底\n- 修复存储空间不足时章节缓存失败无提示\n- 修复复杂 Markdown 章节与超长单章阅读卡顿\n- 修复开启页面模板后只能翻两页、后续翻不动\n- 修复页面模板阅读进度每次从头开始\n- 修复页面模板模式下正文超出屏幕、可上下拖动\n- 修复关闭页面模板后再开启不生效\n- 支持导入其它应用导出的页面模板压缩包（ZIP）\n- 修复翻页后页码与边界判断可能失准\n- 修复模板翻页瞬间装饰动效与分页抢资源导致卡顿\n- 修复阅读组件异常时停在错误页，改为自动切回基础排版\n- 修复模板页脚页码与时间始终空白\n- 修复大体积模板编辑 CSS 保存后闪退、内容丢失\n- 修复 EPUB 内容异常时章节打不开，改为自动降级\n- 修复富渲染阅读页点击无响应、无法翻页\n- 修复套件编辑器书源较多时列表滚动卡顿、只显示部分书源的问题\n- 修复套件编辑器标签选中后无法分辨选中项的问题\n- 修复控件样式选项需左右滑动才能看全的问题\n- 修复控件未加载到内容时被误提示为尚未配置的问题\n- 修复一键生成可能生成出没有可用书源内容的套件的问题",
+        "assets": [
+          {
+            "name": "legado_miss_app_3.26.102113.apk",
+            "size": 31068597,
+            "browserDownloadUrl": "https://github.com/syq17496152/legado/releases/download/3.26.102113/legado_miss_app_3.26.102113.apk"
+          },
+          {
+            "name": "legado_miss_app_debug_3.26.102113.apk",
+            "size": 47080982,
+            "browserDownloadUrl": "https://github.com/syq17496152/legado/releases/download/3.26.102113/legado_miss_app_debug_3.26.102113.apk"
           }
         ]
       },
@@ -1240,36 +1240,36 @@
       "gitee": "lyj09x/legado",
       "upstreamUrl": "https://gitee.com/lyj09x/legado",
       "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
-      "stars": 5,
-      "sourceUpdatedAt": "2026-10-25T01:32:39+08:00",
+      "stars": 6,
+      "sourceUpdatedAt": "2026-10-25T12:31:47+08:00",
       "githubArchived": false,
       "release": {
-        "name": "阅读_E-ink_3.26.102501",
-        "tagName": "阅读_E-ink_3.26.102501",
+        "name": "阅读_E-ink_3.26.102512",
+        "tagName": "阅读_E-ink_3.26.102512",
         "prerelease": false,
-        "publishedAt": "2026-10-25T01:32:39+08:00",
-        "createdAt": "2026-10-25T01:32:39+08:00",
+        "publishedAt": "2026-10-25T13:02:36+08:00",
+        "createdAt": "2026-10-25T13:02:36+08:00",
         "body": "- 已新增对话高亮\r\n- 高亮为不同字体\r\n- 新增汉王水波纹",
         "assets": [
           {
-            "name": "阅读_E-ink_3.26.102501.apk",
+            "name": "阅读_E-ink_3.26.102512.apk",
             "size": 20953070,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.102501/%E9%98%85%E8%AF%BB_E-ink_3.26.102501.apk"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.102512/%E9%98%85%E8%AF%BB_E-ink_3.26.102512.apk"
           },
           {
-            "name": "阅读_magisk_3.26.102501.zip",
-            "size": 22700600,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.102501/%E9%98%85%E8%AF%BB_magisk_3.26.102501.zip"
+            "name": "阅读_magisk_3.26.102512.zip",
+            "size": 22695574,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.102512/%E9%98%85%E8%AF%BB_magisk_3.26.102512.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.102501.zip",
+            "name": "阅读_E-ink_3.26.102512.zip",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.102501.zip"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.102512.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.102501.tar.gz",
+            "name": "阅读_E-ink_3.26.102512.tar.gz",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.102501.tar.gz"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.102512.tar.gz"
           }
         ]
       },
