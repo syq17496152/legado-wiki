@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T01:57:35.454Z",
+  "generatedAt": "2026-10-30T08:37:30.004Z",
   "branches": [
     {
       "id": "c",
@@ -10,7 +10,7 @@
       "pinned": true,
       "note": "站长开发。",
       "stars": 191,
-      "sourceUpdatedAt": "2026-10-12T09:11:17Z",
+      "sourceUpdatedAt": "2026-10-30T08:11:24Z",
       "githubArchived": false,
       "release": {
         "name": "公开版 Pre：蓝牙按键映射双态 v3.26.101209",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47178,
+      "stars": 47181,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6716,
+      "stars": 6729,
       "sourceUpdatedAt": "2026-10-29T20:22:27Z",
       "githubArchived": false,
       "release": {
@@ -128,7 +128,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 2997,
+      "stars": 2999,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -184,7 +184,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1725,
+      "stars": 1726,
       "sourceUpdatedAt": "2026-10-26T15:12:31Z",
       "githubArchived": false,
       "release": {
@@ -261,7 +261,7 @@
       "repo": "hlning/cmbok_app",
       "term": "legado-branch-cmbok",
       "note": "独立多平台应用，发布 Windows / iOS / 安卓安装包，兼容阅读书源。",
-      "stars": 551,
+      "stars": 555,
       "sourceUpdatedAt": "2026-10-26T13:50:05Z",
       "githubArchived": false,
       "release": {
@@ -305,7 +305,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 408,
+      "stars": 410,
       "sourceUpdatedAt": "2026-10-27T09:02:26Z",
       "githubArchived": false,
       "release": {
@@ -378,7 +378,7 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 325,
+      "stars": 324,
       "sourceUpdatedAt": "2026-10-23T00:39:19Z",
       "githubArchived": false,
       "release": {
@@ -411,7 +411,7 @@
       "tag": "r",
       "repo": "refgd/legado",
       "term": "legado-branch-r",
-      "stars": 318,
+      "stars": 319,
       "sourceUpdatedAt": "2026-06-21T19:49:22Z",
       "githubArchived": false,
       "release": {
@@ -534,7 +534,7 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 156,
+      "stars": 157,
       "sourceUpdatedAt": "2026-10-25T16:35:26Z",
       "githubArchived": false,
       "release": {
@@ -562,7 +562,7 @@
       "tag": "t",
       "repo": "skybbk1001/legadoT",
       "term": "legado-branch-t",
-      "stars": 149,
+      "stars": 150,
       "sourceUpdatedAt": "2026-10-29T10:09:06Z",
       "githubArchived": false,
       "release": {
@@ -856,7 +856,7 @@
       "repo": "DaLongZhuaZi/manxia",
       "term": "legado-branch-manxia",
       "note": "阅读原版重构，鸿蒙 Next 版。",
-      "stars": 62,
+      "stars": 63,
       "sourceUpdatedAt": "2026-09-28T15:54:46Z",
       "githubArchived": false,
       "release": {
@@ -975,7 +975,7 @@
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
       "stars": 25,
-      "sourceUpdatedAt": "2026-10-30T00:03:49Z",
+      "sourceUpdatedAt": "2026-10-30T03:09:39Z",
       "githubArchived": false,
       "release": {
         "name": "Pre-release 3.26.17-beta.41",
@@ -1096,7 +1096,7 @@
       "term": "legado-branch-sk",
       "note": "阅读 C 分支：听书界面与体验优化，内置 Edge Next 语音引擎。",
       "stars": 17,
-      "sourceUpdatedAt": "2026-10-30T01:35:34Z",
+      "sourceUpdatedAt": "2026-10-30T05:54:01Z",
       "githubArchived": false,
       "release": {
         "name": "修复找书换源把未加入书架的书自动加架，以及书架重复书籍",
