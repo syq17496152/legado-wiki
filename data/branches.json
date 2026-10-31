@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T20:47:33.125Z",
+  "generatedAt": "2026-10-31T00:46:58.126Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47189,
+      "stars": 47192,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,16 +85,16 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6739,
-      "sourceUpdatedAt": "2026-10-30T18:37:29Z",
+      "stars": 6742,
+      "sourceUpdatedAt": "2026-10-30T21:49:42Z",
       "githubArchived": false,
       "release": {
-        "name": "Release 3.26.19",
+        "name": "Release 3.26.19 Restore",
         "tagName": "3.26.19",
         "prerelease": false,
-        "publishedAt": "2026-10-25T05:56:58Z",
+        "publishedAt": "2026-10-30T22:14:47Z",
         "createdAt": "2026-10-25T05:40:58Z",
-        "body": "### 更新内容\n\n* feat(explore): 发现顶栏改为单书源搜索入口，书源选择改为可筛选底部 sheet\n* fix(manga): 整章拼接超长条漫图拆段渲染，修复 Constraints 尺寸溢出崩溃 (#2475)\n* fix(book-info): 简介纯文本分支二次转义，& < > 显示为 HTML 实体 (#2466)\n* fix(reader): 开标点连同 Latin 单词整体换行，不再拆词\n* fix(book-info): useweb 简介经 FrameLayout 容器承载，规避 Vulkan drawVk 原生崩溃 (#2468)\n* feat(highlight): 高亮规则新增边框样式，预览渲染修复与示例句加长\n* feat(book-info): 关联书籍移至简介下方，支持无规则时按作者搜索兜底\n* fix(reader): 关联书籍位置\n* fix: 关联书籍调试之\n* opt: memory usage (#2478)\n* perf(reader): 排版宽度链路去装箱，字形级宽度改 FloatArray\n* feat(cast): AI 分配角色带上「过了几章没开口」与下一章开头 (#2476)\n* fix(cast): 人物档案读取被夹到 80 个，配音页与人物列表少列人 (#2474)\n* feat(ui): 搜索/发现/详情页封面按原图宽高比自适应（默认固定 5:7，设置可关） (#2473)\n* reader: cut pagination peak memory (streaming, merge, buffer release)\n* feat(reader): 可配置 AI 对话入口携带阅读上下文 & 修复换图标入口 IME 双重避让 (#2472)\n* feat(reader): add configurable AI chat entry with reading context\n* fix(ui): prevent double IME avoidance on alternate launcher activities\n* feat(reader): 阅读主题列表弹窗（网格/流式/管理/导入导出） (#2465)\n* feat(reader): 分页失败原因带上异常 message 与栈顶\n* fix(reader): 引号跨段时角色气泡不再把整章排版打挂\n* feat: 内置词典规则更新为汉典并清理失效的百度汉语规则 (#2450)\n* 咕噜噜\n* feat: 阅读界面优化\n* feat: 添加阻止书源打开选项 在搞基里\n* feat:优化听书界面\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻 (#2447)\n* fix(test): 移除ReadBookViewModel多余空行以满足2748行架构测试上限\n* fix(readaloud): 修复HTTP朗读在当前章未完成时抢占预合成导致的断流卡顿\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻\n\n## What's Changed\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻 by @ISuuuu in https://github.com/HapeLee/legado-with-MD3/pull/2447\n* fix(readaloud): 修复HTTP朗读在当前章未完成时抢占预合成导致的断流卡顿 by @ISuuuu in https://github.com/HapeLee/legado-with-MD3/pull/2448\n* feat: 内置词典规则更新为汉典并清理失效的百度汉语规则 by @xuezhi123go in https://github.com/HapeLee/legado-with-MD3/pull/2450\n* fix(reader): 引号跨段时角色气泡不再把整章排版打挂 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2461\n* feat(reader): 阅读主题列表弹窗（网格/流式/管理/导入导出） by @qmzd111 in https://github.com/HapeLee/legado-with-MD3/pull/2465\n* fix&feat: add configurable AI chat entry with reading context & fix IME double avoidance by @izumisagirii in https://github.com/HapeLee/legado-with-MD3/pull/2472\n* feat(ui): 搜索/发现/详情页封面按原图宽高比自适应（默认固定 5:7，设置可关） by @shaoyangz1 in https://github.com/HapeLee/legado-with-MD3/pull/2473\n* fix(cast): 人物档案读取被夹到 80 个，配音页与人物列表少列人 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2474\n* feat(cast): AI 分配角色带上「过了几章没开口」与下一章开头 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2476\n* opt: memory usage by @izumisagirii in https://github.com/HapeLee/legado-with-MD3/pull/2478\n\n## New Contributors\n* @xuezhi123go made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2450\n* @qmzd111 made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2465\n* @izumisagirii made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2472\n* @shaoyangz1 made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2473\n\n**Full Changelog**: https://github.com/HapeLee/legado-with-MD3/compare/3.26.17...3.26.19",
+        "body": "更新内容（无更改，这是从TG还原的发布版）\r\n\r\n* feat(explore): 发现顶栏改为单书源搜索入口，书源选择改为可筛选底部 sheet\r\n* fix(manga): 整章拼接超长条漫图拆段渲染，修复 Constraints 尺寸溢出崩溃 (#2475)\r\n* fix(book-info): 简介纯文本分支二次转义，& < > 显示为 HTML 实体 (#2466)\r\n* fix(reader): 开标点连同 Latin 单词整体换行，不再拆词\r\n* fix(book-info): useweb 简介经 FrameLayout 容器承载，规避 Vulkan drawVk 原生崩溃 (#2468)\r\n* feat(highlight): 高亮规则新增边框样式，预览渲染修复与示例句加长\r\n* feat(book-info): 关联书籍移至简介下方，支持无规则时按作者搜索兜底\r\n* fix(reader): 关联书籍位置\r\n* fix: 关联书籍调试之\r\n* opt: memory usage (#2478)\r\n* perf(reader): 排版宽度链路去装箱，字形级宽度改 FloatArray\r\n* feat(cast): AI 分配角色带上「过了几章没开口」与下一章开头 (#2476)\r\n* fix(cast): 人物档案读取被夹到 80 个，配音页与人物列表少列人 (#2474)\r\n* feat(ui): 搜索/发现/详情页封面按原图宽高比自适应（默认固定 5:7，设置可关） (#2473)\r\n* reader: cut pagination peak memory (streaming, merge, buffer release)\r\n* feat(reader): 可配置 AI 对话入口携带阅读上下文 & 修复换图标入口 IME 双重避让 (#2472)\r\n* feat(reader): add configurable AI chat entry with reading context\r\n* fix(ui): prevent double IME avoidance on alternate launcher activities\r\n* feat(reader): 阅读主题列表弹窗（网格/流式/管理/导入导出） (#2465)\r\n* feat(reader): 分页失败原因带上异常 message 与栈顶\r\n* fix(reader): 引号跨段时角色气泡不再把整章排版打挂\r\n* feat: 内置词典规则更新为汉典并清理失效的百度汉语规则 (#2450)\r\n* 咕噜噜\r\n* feat: 阅读界面优化\r\n* feat: 添加阻止书源打开选项 在搞基里\r\n* feat:优化听书界面\r\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻 (#2447)\r\n* fix(test): 移除ReadBookViewModel多余空行以满足2748行架构测试上限\r\n* fix(readaloud): 修复HTTP朗读在当前章未完成时抢占预合成导致的断流卡顿\r\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻\r\n\r\nWhat's Changed\r\n* fix(about): 优化检测更新弹窗，将更新按钮移至底部常驻 by @ISuuuu in https://github.com/HapeLee/legado-with-MD3/pull/2447\r\n* fix(readaloud): 修复HTTP朗读在当前章未完成时抢占预合成导致的断流卡顿 by @ISuuuu in https://github.com/HapeLee/legado-with-MD3/pull/2448\r\n* feat: 内置词典规则更新为汉典并清理失效的百度汉语规则 by @xuezhi123go in https://github.com/HapeLee/legado-with-MD3/pull/2450\r\n* fix(reader): 引号跨段时角色气泡不再把整章排版打挂 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2461\r\n* feat(reader): 阅读主题列表弹窗（网格/流式/管理/导入导出） by @qmzd111 in https://github.com/HapeLee/legado-with-MD3/pull/2465\r\n* fix&feat: add configurable AI chat entry with reading context & fix IME double avoidance by @izumisagirii in https://github.com/HapeLee/legado-with-MD3/pull/2472\r\n* feat(ui): 搜索/发现/详情页封面按原图宽高比自适应（默认固定 5:7，设置可关） by @shaoyangz1 in https://github.com/HapeLee/legado-with-MD3/pull/2473\r\n* fix(cast): 人物档案读取被夹到 80 个，配音页与人物列表少列人 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2474\r\n* feat(cast): AI 分配角色带上「过了几章没开口」与下一章开头 by @2408893730 in https://github.com/HapeLee/legado-with-MD3/pull/2476\r\n* opt: memory usage by @izumisagirii in https://github.com/HapeLee/legado-with-MD3/pull/2478\r\n\r\nNew Contributors\r\n* @xuezhi123go made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2450\r\n* @qmzd111 made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2465\r\n* @izumisagirii made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2472\r\n* @shaoyangz1 made their first contribution in https://github.com/HapeLee/legado-with-MD3/pull/2473\r\n\r\nFull Changelog: https://github.com/HapeLee/legado-with-MD3/compare/3.26.17...3.26.19\r\n\r\n完整更新日志: https://github.com/HapeLee/legado-with-MD3/releases/tag/3.26.19",
         "assets": [
           {
             "name": "legado-3.26.19-arm64-v8a.apk",
@@ -110,11 +110,6 @@
             "name": "legado-3.26.19.apk",
             "size": 27617669,
             "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.19/legado-3.26.19.apk"
-          },
-          {
-            "name": "mapping.txt",
-            "size": 299278720,
-            "browserDownloadUrl": "https://github.com/HapeLee/legado-with-MD3/releases/download/3.26.19/mapping.txt"
           }
         ]
       },
@@ -885,7 +880,7 @@
       "repo": "nexhub-app/Nexhub",
       "term": "legado-branch-nexhub",
       "note": "独立多平台应用，动漫 / 漫画 / 小说 / 影视聚合，发布安卓 / Linux / macOS / Windows 安装包。",
-      "stars": 58,
+      "stars": 59,
       "sourceUpdatedAt": "2026-10-26T05:14:09Z",
       "githubArchived": false,
       "release": {
@@ -1096,7 +1091,7 @@
       "term": "legado-branch-sk",
       "note": "阅读 C 分支：听书界面与体验优化，内置 Edge Next 语音引擎。",
       "stars": 17,
-      "sourceUpdatedAt": "2026-10-30T05:54:01Z",
+      "sourceUpdatedAt": "2026-10-31T00:24:01Z",
       "githubArchived": false,
       "release": {
         "name": "修复找书换源把未加入书架的书自动加架，以及书架重复书籍",
