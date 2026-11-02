@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T20:29:45.641Z",
+  "generatedAt": "2026-11-02T00:41:34.420Z",
   "branches": [
     {
       "id": "c",
@@ -9,7 +9,7 @@
       "term": "legado-branch-c",
       "pinned": true,
       "note": "站长开发。",
-      "stars": 196,
+      "stars": 195,
       "sourceUpdatedAt": "2026-10-30T13:47:30Z",
       "githubArchived": false,
       "release": {
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47198,
+      "stars": 47199,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,8 +85,8 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6769,
-      "sourceUpdatedAt": "2026-11-01T20:05:40Z",
+      "stars": 6770,
+      "sourceUpdatedAt": "2026-11-02T00:33:54Z",
       "githubArchived": false,
       "release": {
         "name": "Release 3.26.19 Restore",
@@ -179,7 +179,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1758,
+      "stars": 1759,
       "sourceUpdatedAt": "2026-11-01T09:12:33Z",
       "githubArchived": false,
       "release": {
@@ -715,7 +715,7 @@
       "repo": "ovo066/MoRead",
       "term": "legado-branch-moread",
       "note": "原生 Android 本地小说阅读器 + AI 伴读。",
-      "stars": 115,
+      "stars": 114,
       "sourceUpdatedAt": "2026-10-21T09:46:20Z",
       "githubArchived": false,
       "release": {
