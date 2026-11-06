@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T06:39:19.507Z",
+  "generatedAt": "2026-11-06T15:00:34.786Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47208,
+      "stars": 47210,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6851,
+      "stars": 6858,
       "sourceUpdatedAt": "2026-11-04T19:49:16Z",
       "githubArchived": false,
       "release": {
@@ -148,7 +148,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 3041,
+      "stars": 3044,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -176,7 +176,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2243,
+      "stars": 2246,
       "sourceUpdatedAt": "2026-10-26T09:57:47Z",
       "githubArchived": false,
       "release": {
@@ -204,7 +204,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1818,
+      "stars": 1825,
       "sourceUpdatedAt": "2026-11-02T15:12:01Z",
       "githubArchived": false,
       "release": {
@@ -247,7 +247,7 @@
       "tag": "archive",
       "repo": "Rimchars/legado",
       "term": "legado-branch-archive",
-      "stars": 658,
+      "stars": 659,
       "sourceUpdatedAt": "2026-09-24T15:32:04Z",
       "githubArchived": false,
       "release": {
@@ -281,7 +281,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 420,
+      "stars": 421,
       "sourceUpdatedAt": "2026-10-27T09:02:26Z",
       "githubArchived": false,
       "release": {
@@ -427,7 +427,7 @@
       "tag": "r",
       "repo": "refgd/legado",
       "term": "legado-branch-r",
-      "stars": 324,
+      "stars": 325,
       "sourceUpdatedAt": "2026-06-21T19:49:22Z",
       "githubArchived": false,
       "release": {
@@ -550,7 +550,7 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 194,
+      "stars": 196,
       "sourceUpdatedAt": "2026-11-05T18:00:56Z",
       "githubArchived": false,
       "release": {
@@ -692,20 +692,20 @@
       "term": "legado-branch-moread",
       "note": "原生 Android 本地小说阅读器 + AI 伴读。",
       "stars": 114,
-      "sourceUpdatedAt": "2026-10-21T09:46:20Z",
+      "sourceUpdatedAt": "2026-11-06T10:22:33Z",
       "githubArchived": false,
       "release": {
-        "name": "墨知 1.4.1",
-        "tagName": "v1.4.1",
+        "name": "MoRead 1.5.0",
+        "tagName": "v1.5.0",
         "prerelease": false,
-        "publishedAt": "2026-10-21T09:47:04Z",
-        "createdAt": "2026-10-21T09:46:17Z",
-        "body": "# MoRead · 墨知 1.4.1\n\n## 中文\n\n- 伴读会话支持导出 Markdown，可分享或另存；阅读页伴读悬浮球可在设置中隐藏。\n- 改进主动段评的前方段落选择、全章覆盖和断点补全，避免后半章长时间没有段评。\n- 改进 EPUB 重复资源兼容；章节精排解析失败时保留正文与图片，并保护已有正文和批注坐标。\n- TXT 单本预览与批量导入改用流式处理，降低大文件内存占用；优化章节扫描与导入进度。\n- 书架支持调整网格列数；优化书籍详情加载、段落讨论及悬浮导航的拖拽、切页和收放。\n- 修复底部弹层滚动边界与视口稳定性，补充导航手势、导入和段评回归覆盖。\n\n正式安装包：`mozhi-1.4.1-vc85.apk`，Android 8.0 及以上，使用正式发布证书，可覆盖安装已有正式版。\n\n## English\n\n- Export companion conversations as Markdown for sharing or saving, and optionally hide the companion bubble in the reader.\n- Improve proactive annotation scheduling, chapter coverage, and resumable completion.\n- Handle duplicate EPUB resources and preserve text and images when rich chapter parsing fails, while protecting existing text and annotation coordinates.\n- Stream TXT previews and batch imports to reduce memory use; improve chapter scanning and import progress.\n- Add configurable bookshelf grid columns and refine book-detail loading, passage discussions, and floating navigation gestures.\n- Stabilize bottom-sheet scrolling and viewport boundaries, with additional navigation, import, and annotation regression coverage.\n\nOfficial package: `mozhi-1.4.1-vc85.apk`, for Android 8.0 or later. Signed with the official release certificate for upgrades from existing official installations.\n",
+        "publishedAt": "2026-11-06T10:25:45Z",
+        "createdAt": "2026-11-06T10:22:26Z",
+        "body": "## 新功能\n- **演出模式（墨戏）**：一句一屏的视觉小说式阅读，在宣纸上演出水墨戏。原文一字不改，程序化水墨布景、对白小笺与说话人印章、开章竖排题字、可选本机合成声景与 AI 导演（默认关）\n- 内置志莽行书（OFL 1.1）作演出题字字体\n- 伴读可生成 Markdown 文件（文件卡，可预览、分享、保存）\n\n## 改进\n- 现代仿真翻页页缘跟手、轻扫即翻，补卷页投影；提前落页判据更准\n\n注意：本 Release 为正式签名包，装过内测包的设备需卸载重装。\n",
         "assets": [
           {
-            "name": "mozhi-1.4.1-vc85.apk",
-            "size": 23330687,
-            "browserDownloadUrl": "https://github.com/ovo066/MoRead/releases/download/v1.4.1/mozhi-1.4.1-vc85.apk"
+            "name": "mozhi-1.5.0-vc88.apk",
+            "size": 26386499,
+            "browserDownloadUrl": "https://github.com/ovo066/MoRead/releases/download/v1.5.0/mozhi-1.5.0-vc88.apk"
           }
         ]
       },
@@ -764,7 +764,7 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 88,
+      "stars": 89,
       "sourceUpdatedAt": "2026-11-06T06:24:09Z",
       "githubArchived": false,
       "release": {
@@ -990,7 +990,7 @@
       "repo": "Mupceet/EssentialReader",
       "term": "legado-branch-moben",
       "note": "MD3 下游，墨水屏增强发行版：轻量单界面墨水屏模式 + MD3 完整模式双模式。",
-      "stars": 26,
+      "stars": 25,
       "sourceUpdatedAt": "2026-11-06T03:08:55Z",
       "githubArchived": false,
       "release": {
@@ -1237,30 +1237,30 @@
       "upstreamUrl": "https://gitee.com/lyj09x/legado",
       "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
       "stars": 6,
-      "sourceUpdatedAt": "2026-11-03T22:55:03+08:00",
+      "sourceUpdatedAt": "2026-11-06T19:34:11+08:00",
       "githubArchived": false,
       "release": {
-        "name": "阅读_E-ink_3.26.110322",
-        "tagName": "阅读_E-ink_3.26.110322",
+        "name": "阅读_E-ink_3.26.110619",
+        "tagName": "阅读_E-ink_3.26.110619",
         "prerelease": false,
-        "publishedAt": "2026-11-03T22:55:03+08:00",
-        "createdAt": "2026-11-03T22:55:03+08:00",
-        "body": "- 新增墨锆波纹\r\n- 修复已知问题\r\n- 新增未知问题",
+        "publishedAt": "2026-11-06T19:34:11+08:00",
+        "createdAt": "2026-11-06T19:34:11+08:00",
+        "body": "- 修复点击问题",
         "assets": [
           {
-            "name": "阅读_E-ink_3.26.110322.apk",
-            "size": 21026855,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.110322/%E9%98%85%E8%AF%BB_E-ink_3.26.110322.apk"
+            "name": "阅读_E-ink_3.26.110619.apk",
+            "size": 21030951,
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.110619/%E9%98%85%E8%AF%BB_E-ink_3.26.110619.apk"
           },
           {
-            "name": "阅读_E-ink_3.26.110322.zip",
+            "name": "阅读_E-ink_3.26.110619.zip",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.110322.zip"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.110619.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.110322.tar.gz",
+            "name": "阅读_E-ink_3.26.110619.tar.gz",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.110322.tar.gz"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.110619.tar.gz"
           }
         ]
       },
