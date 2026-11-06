@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T15:00:34.786Z",
+  "generatedAt": "2026-11-06T20:53:02.463Z",
   "branches": [
     {
       "id": "c",
@@ -44,7 +44,7 @@
           "name": "CCSSNE/legado",
           "repo": "CCSSNE/legado",
           "url": "https://github.com/CCSSNE/legado",
-          "stars": 51,
+          "stars": 52,
           "updatedAt": "2026-08-11T01:49:32Z"
         }
       ],
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47210,
+      "stars": 47211,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6858,
+      "stars": 6862,
       "sourceUpdatedAt": "2026-11-04T19:49:16Z",
       "githubArchived": false,
       "release": {
@@ -204,7 +204,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1825,
+      "stars": 1827,
       "sourceUpdatedAt": "2026-11-02T15:12:01Z",
       "githubArchived": false,
       "release": {
@@ -427,7 +427,7 @@
       "tag": "r",
       "repo": "refgd/legado",
       "term": "legado-branch-r",
-      "stars": 325,
+      "stars": 324,
       "sourceUpdatedAt": "2026-06-21T19:49:22Z",
       "githubArchived": false,
       "release": {
@@ -550,7 +550,7 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 196,
+      "stars": 197,
       "sourceUpdatedAt": "2026-11-05T18:00:56Z",
       "githubArchived": false,
       "release": {
@@ -691,7 +691,7 @@
       "repo": "ovo066/MoRead",
       "term": "legado-branch-moread",
       "note": "原生 Android 本地小说阅读器 + AI 伴读。",
-      "stars": 114,
+      "stars": 115,
       "sourceUpdatedAt": "2026-11-06T10:22:33Z",
       "githubArchived": false,
       "release": {
@@ -1236,7 +1236,7 @@
       "gitee": "lyj09x/legado",
       "upstreamUrl": "https://gitee.com/lyj09x/legado",
       "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
-      "stars": 6,
+      "stars": 7,
       "sourceUpdatedAt": "2026-11-06T19:34:11+08:00",
       "githubArchived": false,
       "release": {
