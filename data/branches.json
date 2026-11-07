@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:53:02.463Z",
+  "generatedAt": "2026-11-07T00:55:33.602Z",
   "branches": [
     {
       "id": "c",
@@ -148,7 +148,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 3044,
+      "stars": 3046,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -204,7 +204,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1827,
+      "stars": 1829,
       "sourceUpdatedAt": "2026-11-02T15:12:01Z",
       "githubArchived": false,
       "release": {
@@ -764,7 +764,7 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 89,
+      "stars": 90,
       "sourceUpdatedAt": "2026-11-06T06:24:09Z",
       "githubArchived": false,
       "release": {
