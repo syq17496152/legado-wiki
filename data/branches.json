@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:16:50.270Z",
+  "generatedAt": "2026-11-11T02:49:36.980Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47243,
+      "stars": 47244,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6939,
+      "stars": 6940,
       "sourceUpdatedAt": "2026-11-10T16:49:41Z",
       "githubArchived": false,
       "release": {
@@ -148,7 +148,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 3072,
+      "stars": 3073,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -204,7 +204,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1888,
+      "stars": 1889,
       "sourceUpdatedAt": "2026-11-09T15:10:55Z",
       "githubArchived": false,
       "release": {
@@ -769,7 +769,7 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 102,
+      "stars": 105,
       "sourceUpdatedAt": "2026-11-09T17:04:48Z",
       "githubArchived": false,
       "release": {
