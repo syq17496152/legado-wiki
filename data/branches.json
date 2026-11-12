@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T01:32:13.785Z",
+  "generatedAt": "2026-11-12T09:47:50.851Z",
   "branches": [
     {
       "id": "c",
@@ -44,7 +44,7 @@
           "name": "CCSSNE/legado",
           "repo": "CCSSNE/legado",
           "url": "https://github.com/CCSSNE/legado",
-          "stars": 61,
+          "stars": 62,
           "updatedAt": "2026-08-11T01:49:32Z"
         }
       ],
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47249,
+      "stars": 47246,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,8 +85,8 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6954,
-      "sourceUpdatedAt": "2026-11-11T21:08:00Z",
+      "stars": 6963,
+      "sourceUpdatedAt": "2026-11-12T08:01:48Z",
       "githubArchived": false,
       "release": {
         "name": "Release 3.26.25",
@@ -148,7 +148,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 3078,
+      "stars": 3081,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -204,7 +204,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1895,
+      "stars": 1901,
       "sourceUpdatedAt": "2026-11-11T11:04:36Z",
       "githubArchived": false,
       "release": {
@@ -281,7 +281,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 429,
+      "stars": 430,
       "sourceUpdatedAt": "2026-11-07T15:48:56Z",
       "githubArchived": false,
       "release": {
@@ -346,7 +346,7 @@
       },
       "errors": [],
       "fork": true,
-      "forkOf": "youfengknight/Legado_Max"
+      "forkOf": "Luoyacheng/legado-E"
     },
     {
       "id": "shutiao",
@@ -455,48 +455,6 @@
       "forkOf": "rimvoid/legado"
     },
     {
-      "id": "max",
-      "name": "阅读 MAX怣疯版",
-      "tag": "max",
-      "repo": "youfengknight/Legado_Max",
-      "term": "legado-branch-max",
-      "note": "原版 MAX 已宣布不再维护，家族各分支独立发版。",
-      "manualAbandoned": "作者已声明不再维护",
-      "stars": 270,
-      "sourceUpdatedAt": "2026-06-18T16:23:25Z",
-      "githubArchived": true,
-      "release": {
-        "name": "legado_app_3.26.061723",
-        "tagName": "beta-3.26.061723",
-        "prerelease": true,
-        "publishedAt": "2026-06-17T15:43:18Z",
-        "createdAt": "2026-06-05T14:19:50Z",
-        "body": "### 更新内容\r\n#### 此版本有崩溃bug，该项目不再维护。\r\n* fix：普通朗读模式下按返回可以关闭朗读\r\n* 优化悬浮播放关闭按钮\r\n* 页眉和页脚上下边距最大值从100dp改为200dp\r\n* 封装Compose dialog\r\n* 优化与封装Compose的AppConfirmDialog的dialog\r\n* fix：调试模式改为调试工具\r\n* 文档：补充调试专属日志设计说明\r\n* 文档：修正调试专属日志设计说明中的 putNotSave 描述\r\n* 文档：补充调试专属日志功能实现计划\r\n* 调试日志：新增调试专属日志模式的 PreferKey 常量\r\n* 调试日志：新增 AppConfig.debugLogOnlyCategories 测试\r\n* 调试日志：回滚 AppConfig.debugLogOnlyCategories 测试\r\n* 调试日志：新增 AppConfig 的专属开关和分类配置\r\n* 完善调试专属日志分流与配置入口\r\n* feat：离线缓存界面增加文件大小，字典规则界面增加快速滚动条\r\n* fix：多个界面默认显示快速滚动条\r\n* fix：去除300ms防抖延迟造成文字上下跳动，选择恢复文件界面优化按钮颜色\r\n* fix：选择恢复内容界面优化\r\n\r\n",
-        "assets": [
-          {
-            "name": "legado_beta_3.26.061723_release.apk",
-            "size": 24152888,
-            "browserDownloadUrl": "https://github.com/youfengknight/Legado_Max/releases/download/beta-3.26.061723/legado_beta_3.26.061723_release.apk"
-          },
-          {
-            "name": "legado_compat_3.26.061723_legacy.apk",
-            "size": 24152799,
-            "browserDownloadUrl": "https://github.com/youfengknight/Legado_Max/releases/download/beta-3.26.061723/legado_compat_3.26.061723_legacy.apk"
-          },
-          {
-            "name": "legado_plus_3.26.061723_releaseS.apk",
-            "size": 24152835,
-            "browserDownloadUrl": "https://github.com/youfengknight/Legado_Max/releases/download/beta-3.26.061723/legado_plus_3.26.061723_releaseS.apk"
-          }
-        ]
-      },
-      "errors": [],
-      "fork": true,
-      "forkOf": "Luoyacheng/legado-E",
-      "abandoned": "弃坑",
-      "abandonedReason": "作者已声明不再维护"
-    },
-    {
       "id": "tauri",
       "name": "阅读 Tauri",
       "tag": "tauri",
@@ -555,7 +513,7 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 208,
+      "stars": 209,
       "sourceUpdatedAt": "2026-11-05T18:00:56Z",
       "githubArchived": false,
       "release": {
@@ -769,61 +727,61 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 108,
-      "sourceUpdatedAt": "2026-11-09T17:04:48Z",
+      "stars": 110,
+      "sourceUpdatedAt": "2026-11-12T02:43:26Z",
       "githubArchived": false,
       "release": {
-        "name": "v2.9.0",
-        "tagName": "v2.9.0",
+        "name": "v2.10.1",
+        "tagName": "v2.10.1",
         "prerelease": false,
-        "publishedAt": "2026-11-09T17:28:16Z",
-        "createdAt": "2026-11-09T17:04:45Z",
-        "body": "release: v2.9.0\n\n新增\n- 摸鱼模式（桌面）：在阅读页「阅读模式」面板最上面一行进入，PDF 在「视图」菜单。窗口变成透明无边框，只留正文，背景和文字浓淡可以分开调；顶部细条拖动窗口，悬停露出调节和退出。\n- 老板键（默认 Alt+Shift+Z）：一键藏起 / 恢复阅读窗口，轻阅不在前台时也有效，可在设置里重新录制。\n- 摸鱼可选项：伪装窗口标题、窗口置顶、不在任务栏和 Alt+Tab 中显示、截图和共享屏幕时隐藏、打开图书自动进入。进出摸鱼模式保持阅读位置。\n\n改进\n- Windows 窗口与 macOS 对齐：去掉系统标题栏和深色细边框，窗口圆角；侧栏直通到顶，窗口按钮浮在右上角并与页面顶行对齐、留出间距。\n- 夜间阅读：正文用夜间主题时，工具栏、进度条、目录、笔记、搜索、阅读模式、排版、听书、AI、背景音、翻译和各类弹窗都跟着变深；反过来（深色外观 + 浅色正文）也一致，离开阅读页恢复应用外观。\n- 删除确认改为红色「删除」按钮；「恢复默认」排版先确认再执行。\n- 窄窗口底部标签栏完整显示；各页面记住自己的滚动位置；弹窗底部按钮始终可见。\n- 双击选词不再顺带翻页（鼠标单击翻页约有 0.2 秒判定）；书内搜索、新建书单、添加书源等输入框自动聚焦。\n- PDF：窗口缩窄自动切换布局时停留在当前页；文件属性可用 Esc 关闭；快捷键说明与自动翻页、听书速度刻度不再挤压；AI 解读不再显示 Markdown 符号。\n\n修复\n- 「写想法」取消后不再留下划线；Esc 可关闭背景音面板。\n- 藏书页今日 / 本周分钟与阅读记录取整一致。\n\n已知限制\n- 中文输入法组词时按 Esc 会先交给输入法。\n- PDF 个别页面缩略图上的批注颜色标记与正文不一致，不影响阅读。\n\n验证：t9 上 vue-tsc、npm run build、test:stealth、style-tokens、cargo test (lib)、npm run e2e 37 步全部通过（退出码受 t9 GitHub API 匿名限流 403 影响）、e2e:stealth、e2e:window-chrome；Win10 真机 Codex 共 5 轮验收，第 5 轮 50 项中 49 项复测通过（1 项按约定未测）。\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n\n",
+        "publishedAt": "2026-11-12T03:14:03Z",
+        "createdAt": "2026-11-12T02:43:22Z",
+        "body": "release: v2.10.1\n\nv2.10.0 没有公开过（发版构建在 macOS 与 Windows 上失败），这是 2.9.0 之后的第一个版本。\n\n新增\n- 离线翻译（macOS、Windows）：在「设置 › AI 助手」或翻译面板里下载翻译模型（1.1 GB）后，划词翻译在本机完成，不登录、不联网、不限次数，支持中、英、日、韩等 9 种语言。内存不足 8 GB 或处理器较旧的电脑不提供；本机实测太慢而又能在线翻译时自动改用在线。\n- 本机语音（实验，Apple 芯片的 Mac）：听书面板的语音多了「本机」，下载语音模型（1.5 GB）后朗读在本机合成，有女声、男声两种音色，语速设置同样生效。需要内存 12 GB 以上；合成跟不上朗读时自动改用在线语音。Windows 和 Intel Mac 暂不提供（没有显卡加速时合成跟不上朗读）。\n\n改进\n- PDF：页面渲染移到后台线程，翻页和缩放时界面不再跟着卡顿；放大后按内存预算少留几页，大文件更不容易把内存占满。渲染出错时自动换用备用引擎。\n- 自建书库地址带端口（如 http://192.168.1.10:8080）时可以正常连接。\n\n修复\n- 应用浅色外观 + 正文夜间主题时，书页底色与上下边缘颜色接不上。\n\n变化\n- macOS 最低系统版本由 10.13 提高到 10.15（离线翻译的引擎需要）。\n\n已知限制\n- 离线翻译在 Windows 上只验证了构建和原生层（真实模型），没有人在装好的应用里用过；Intel Mac 没有实机验证。Linux 版暂时不带离线翻译和本机语音。\n- 本机语音的音质和长时间朗读的稳定性还没有充分试听，属于实验功能；拉丁字母的文字一律按英语朗读。\n- 模型文件较大，下载走 ModelScope / Hugging Face，网络不通时可在「设置 › 网络」填写代理；下载支持断点续传。\n\n验证：t9 上 cargo test --lib 154 项、npm run build、e2e 冒烟、e2e:translate（桌面与 App 界面）、test:read-aloud、test:translate、test:pdf-render、e2e:pdf-crash 通过。MacAir（M5）上用与发版相同的命令打出应用，在真实应用里经 IPC 验证了模型下载（含退出后续传与校验）、流式翻译、语音合成、带着模型退出不闪退。GitHub 的 Windows 机器上构建、出安装包，并用真实模型跑通翻译与语音的原生层测试；Intel Mac 目标打包通过。界面一侧用原生层替身测试，没有人在装好的应用里点着用过这两项功能。\n\nCo-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>\n\n",
         "assets": [
           {
-            "name": "LightRead-2.9.0-1.x86_64.rpm",
-            "size": 32865658,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/LightRead-2.9.0-1.x86_64.rpm"
+            "name": "LightRead-2.10.1-1.x86_64.rpm",
+            "size": 32953422,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/LightRead-2.10.1-1.x86_64.rpm"
           },
           {
-            "name": "LightRead_2.9.0_aarch64.dmg",
-            "size": 26175023,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/LightRead_2.9.0_aarch64.dmg"
+            "name": "LightRead_2.10.1_aarch64.dmg",
+            "size": 29938286,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/LightRead_2.10.1_aarch64.dmg"
           },
           {
-            "name": "LightRead_2.9.0_amd64.AppImage",
-            "size": 108599800,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/LightRead_2.9.0_amd64.AppImage"
+            "name": "LightRead_2.10.1_amd64.AppImage",
+            "size": 108677624,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/LightRead_2.10.1_amd64.AppImage"
           },
           {
-            "name": "LightRead_2.9.0_amd64.deb",
-            "size": 32861846,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/LightRead_2.9.0_amd64.deb"
+            "name": "LightRead_2.10.1_amd64.deb",
+            "size": 32951190,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/LightRead_2.10.1_amd64.deb"
           },
           {
-            "name": "LightRead_2.9.0_x64-setup.exe",
-            "size": 20730499,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/LightRead_2.9.0_x64-setup.exe"
+            "name": "LightRead_2.10.1_x64-setup.exe",
+            "size": 22717932,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/LightRead_2.10.1_x64-setup.exe"
           },
           {
-            "name": "LightRead_2.9.0_x64.dmg",
-            "size": 27431246,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/LightRead_2.9.0_x64.dmg"
+            "name": "LightRead_2.10.1_x64.dmg",
+            "size": 31283341,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/LightRead_2.10.1_x64.dmg"
           },
           {
             "name": "LightRead_aarch64.app.tar.gz",
-            "size": 26096152,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/LightRead_aarch64.app.tar.gz"
+            "size": 29865470,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/LightRead_aarch64.app.tar.gz"
           },
           {
             "name": "LightRead_x64.app.tar.gz",
-            "size": 27365618,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/LightRead_x64.app.tar.gz"
+            "size": 31233965,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/LightRead_x64.app.tar.gz"
           },
           {
             "name": "SHA256SUMS",
-            "size": 750,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.9.0/SHA256SUMS"
+            "size": 756,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/v2.10.1/SHA256SUMS"
           }
         ]
       },
@@ -1039,7 +997,7 @@
       "repo": "syq17496152/legado",
       "term": "legado-branch-m",
       "stars": 26,
-      "sourceUpdatedAt": "2026-11-12T01:08:16Z",
+      "sourceUpdatedAt": "2026-11-12T02:40:59Z",
       "githubArchived": false,
       "release": {
         "name": "3.26.102921",
@@ -1117,25 +1075,25 @@
       "term": "legado-branch-sk",
       "note": "阅读 C 分支：听书界面与体验优化，内置 Edge Next 语音引擎。",
       "stars": 19,
-      "sourceUpdatedAt": "2026-11-01T12:31:39Z",
+      "sourceUpdatedAt": "2026-11-12T08:11:55Z",
       "githubArchived": false,
       "release": {
-        "name": "修复找书换源把未加入书架的书自动加架，以及书架重复书籍",
-        "tagName": "v3.26.102914-10107",
+        "name": "朗读引擎静默后自动重试本段，长段落不再被打断",
+        "tagName": "v3.26.111009-10122",
         "prerelease": true,
-        "publishedAt": "2026-10-30T01:33:29Z",
-        "createdAt": "2026-10-29T10:39:01Z",
-        "body": "## 更新内容\n\n- 修复找书时换源会把还没加入书架的书自动加入书架\n- 修复书架出现重复书籍\n- 修复阅读界面重新打开时闪退\n\n---\n\n**两个包的区别**\n\n- `legado_sk_3.26.102914c_10107_arm64-v8a.apk`（正式版，包名 `io.legado.app.c`）：可覆盖升级，与「阅读C」签名不同、不能互覆。\n- `legado_sk_3.26.102914c_10107_arm64-v8a_sk2-coexist.apk`（共存版，包名 `io.legado.app.sk2`）：可与正式版、「阅读C」三者并存；**独立数据，不共享书架与进度**；不能覆盖安装正式版。\n",
+        "publishedAt": "2026-11-12T08:11:11Z",
+        "createdAt": "2026-11-10T01:22:24Z",
+        "body": "## 更新内容\n\n**听书（本次重点）**\n\n- 朗读时引擎端出现静默（一段时间收不到任何回调）会主动重复尝试本段，尽量让朗读连续读下去，避免无声停住或直接跳过内容。长时间朗读、长段落也按段落长度放宽了判定时间，不会因为一段读得久就被打断。\n- 按章节定时的额度只在「本章真的读完且真的出过声」时才扣；切章失败会归还额度并提示，不再白掉额度\n- 朗读引擎对齐上游「阅读C」：新增蓝牙按键映射（阅读菜单 → 蓝牙按键映射，7 个键 × 阅读/朗读两套动作）；书源音频按字幕时长预测段内位置，进度跟随更顺\n- 修复点选引擎时的明显卡顿；脚本引擎可从详情页「脚本选项」配置、从「选择音色」挑发音人\n\n**书架与备份**\n\n- 书架变动自动备份的等待时间 8 秒 → 3 秒，加/删书后立刻退出更不容易丢备份\n- 试读后「加书架」不再漏触发自动备份\n\n---\n\n**两个包的区别**\n\n- `legado_sk_3.26.111009c_10122_arm64-v8a.apk`（正式版，包名 `io.legado.app.c`）：可覆盖升级，与「阅读C」签名不同、不能互覆。\n- `legado_sk_3.26.111009c_10122_arm64-v8a_sk2-coexist.apk`（共存版，包名 `io.legado.app.sk2`）：可与正式版、「阅读C」三者并存；**独立数据，不共享书架与进度**；不能覆盖安装正式版。\n",
         "assets": [
           {
-            "name": "legado_sk_3.26.102914c_10107_arm64-v8a.apk",
-            "size": 36181661,
-            "browserDownloadUrl": "https://github.com/skxingyu/legado-sk/releases/download/v3.26.102914-10107/legado_sk_3.26.102914c_10107_arm64-v8a.apk"
+            "name": "legado_sk_3.26.111009c_10122_arm64-v8a.apk",
+            "size": 36215404,
+            "browserDownloadUrl": "https://github.com/skxingyu/legado-sk/releases/download/v3.26.111009-10122/legado_sk_3.26.111009c_10122_arm64-v8a.apk"
           },
           {
-            "name": "legado_sk_3.26.102914c_10107_arm64-v8a_sk2-coexist.apk",
-            "size": 36181603,
-            "browserDownloadUrl": "https://github.com/skxingyu/legado-sk/releases/download/v3.26.102914-10107/legado_sk_3.26.102914c_10107_arm64-v8a_sk2-coexist.apk"
+            "name": "legado_sk_3.26.111009c_10122_arm64-v8a_sk2-coexist.apk",
+            "size": 36215636,
+            "browserDownloadUrl": "https://github.com/skxingyu/legado-sk/releases/download/v3.26.111009-10122/legado_sk_3.26.111009c_10122_arm64-v8a_sk2-coexist.apk"
           }
         ]
       },
@@ -1329,6 +1287,25 @@
       "errors": [],
       "fork": false,
       "forkOf": null
+    },
+    {
+      "id": "max",
+      "name": "阅读 MAX怣疯版",
+      "tag": "max",
+      "repo": "youfengknight/Legado_Max",
+      "term": "legado-branch-max",
+      "note": "原版 MAX 已宣布不再维护，家族各分支独立发版。",
+      "manualAbandoned": "作者已声明不再维护",
+      "stars": null,
+      "sourceUpdatedAt": null,
+      "githubArchived": false,
+      "release": null,
+      "errors": [
+        "仓库信息同步失败：GitHub API 404",
+        "版本信息同步失败：GitHub API 404"
+      ],
+      "abandoned": "弃坑",
+      "abandonedReason": "作者已声明不再维护"
     },
     {
       "id": "cmbok",
