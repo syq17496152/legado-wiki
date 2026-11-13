@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T06:40:23.073Z",
+  "generatedAt": "2026-11-13T15:23:01.029Z",
   "branches": [
     {
       "id": "c",
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47252,
+      "stars": 47249,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,8 +85,8 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 6983,
-      "sourceUpdatedAt": "2026-11-12T16:50:18Z",
+      "stars": 6991,
+      "sourceUpdatedAt": "2026-11-13T12:45:51Z",
       "githubArchived": false,
       "release": {
         "name": "Release 3.26.25",
@@ -148,7 +148,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 3087,
+      "stars": 3089,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -176,7 +176,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2252,
+      "stars": 2253,
       "sourceUpdatedAt": "2026-10-26T09:57:47Z",
       "githubArchived": false,
       "release": {
@@ -204,7 +204,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 1908,
+      "stars": 1918,
       "sourceUpdatedAt": "2026-11-11T11:04:36Z",
       "githubArchived": false,
       "release": {
@@ -281,7 +281,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 431,
+      "stars": 432,
       "sourceUpdatedAt": "2026-11-07T15:48:56Z",
       "githubArchived": false,
       "release": {
@@ -513,7 +513,7 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 211,
+      "stars": 212,
       "sourceUpdatedAt": "2026-11-05T18:00:56Z",
       "githubArchived": false,
       "release": {
@@ -727,8 +727,8 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 113,
-      "sourceUpdatedAt": "2026-11-13T06:03:08Z",
+      "stars": 114,
+      "sourceUpdatedAt": "2026-11-13T06:46:38Z",
       "githubArchived": false,
       "release": {
         "name": "v2.10.3",
