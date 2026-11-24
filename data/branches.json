@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:46:52.575Z",
+  "generatedAt": "2026-11-24T15:52:12.369Z",
   "branches": [
     {
       "id": "c",
@@ -9,7 +9,7 @@
       "term": "legado-branch-c",
       "pinned": true,
       "note": "站长开发。",
-      "stars": 222,
+      "stars": 223,
       "sourceUpdatedAt": "2026-10-30T13:47:30Z",
       "githubArchived": false,
       "release": {
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47283,
+      "stars": 47288,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,8 +85,8 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 7217,
-      "sourceUpdatedAt": "2026-11-23T18:26:58Z",
+      "stars": 7229,
+      "sourceUpdatedAt": "2026-11-24T13:31:29Z",
       "githubArchived": false,
       "release": {
         "name": "Release 3.26.31",
@@ -148,7 +148,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 3154,
+      "stars": 3160,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -176,7 +176,7 @@
       "tag": "harmony",
       "repo": "mgz0227/legado-Harmony",
       "term": "legado-branch-harmony",
-      "stars": 2256,
+      "stars": 2257,
       "sourceUpdatedAt": "2026-10-26T09:57:47Z",
       "githubArchived": false,
       "release": {
@@ -204,7 +204,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 2023,
+      "stars": 2026,
       "sourceUpdatedAt": "2026-11-23T15:07:01Z",
       "githubArchived": false,
       "release": {
@@ -247,7 +247,7 @@
       "tag": "archive",
       "repo": "Rimchars/legado",
       "term": "legado-branch-archive",
-      "stars": 690,
+      "stars": 691,
       "sourceUpdatedAt": "2026-09-24T15:32:04Z",
       "githubArchived": false,
       "release": {
@@ -281,7 +281,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 447,
+      "stars": 449,
       "sourceUpdatedAt": "2026-11-21T14:43:01Z",
       "githubArchived": false,
       "release": {
@@ -513,8 +513,8 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 242,
-      "sourceUpdatedAt": "2026-11-18T07:49:46Z",
+      "stars": 243,
+      "sourceUpdatedAt": "2026-11-24T14:44:49Z",
       "githubArchived": false,
       "release": {
         "name": "legado_ng_3.26.111815",
@@ -585,8 +585,8 @@
       "repo": "yzfly/LightRead",
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
-      "stars": 142,
-      "sourceUpdatedAt": "2026-11-24T00:04:24Z",
+      "stars": 141,
+      "sourceUpdatedAt": "2026-11-24T14:19:23Z",
       "githubArchived": false,
       "release": {
         "name": "v2.11.1",
@@ -661,6 +661,35 @@
       "forkOf": null
     },
     {
+      "id": "moread",
+      "name": "墨知 MoRead",
+      "tag": "moread",
+      "repo": "ovo066/MoRead",
+      "term": "legado-branch-moread",
+      "note": "原生 Android 本地小说阅读器 + AI 伴读。",
+      "stars": 139,
+      "sourceUpdatedAt": "2026-11-20T08:45:54Z",
+      "githubArchived": false,
+      "release": {
+        "name": "MoRead 1.6.0",
+        "tagName": "v1.6.0",
+        "prerelease": false,
+        "publishedAt": "2026-11-20T08:50:56Z",
+        "createdAt": "2026-11-20T08:24:36Z",
+        "body": "# MoRead · 墨知 1.6.0\n\n## 中文\n\n**导入**\n- 新增 Markdown、HTML 与无 DRM 的 MOBI / AZW3 导入：转成 EPUB 后沿用原有阅读、排版与批注能力，转换全程不联网；带 DRM 或暂不支持的文件会给出明确原因。\n\n**伴读**\n- 随读配图改为按段落画面感挑选，每章上限可设；生图服务未配置时不再空耗额度，设置页显示今日语音、插图用量与失败次数。\n- 多位伴读参与段评时互相看得见：不重复划同一段，偶尔在讨论里接一句；讨论串新增「大家聊聊」，几位伴读轮流各说一句。\n- 阅读菜单「更多」新增「插图排进正文」（按书开关，默认关）：已生成的插图像出版书那样排在段落之间，图注标明 AI 配图，不改变原文与阅读进度。\n\n**演出模式**\n- 说话人有定妆图时，名牌旁显示小像；已生成的插图演到那一句时出现。\n- 配音跟读：章节做过有声书时，演到哪句放哪句，自动播放等配音念完再走。\n- 旁白节奏（逐句 / 合句 / 整段）、全屏演出、旁白冷暖色，并修复精排书对白颜色丢失。\n\n**阅读**\n- 操作区新增一键预设（标准 / 全屏翻页 / 左手 / 上下）；页眉页脚改为左中右六个槽位；左右边距可调到 0。\n\n正式安装包：`mozhi-1.6.0-vc90.apk`，Android 8.0 及以上，使用正式发布证书，可覆盖安装已有正式版。\n\n## English\n\n**Import**\n- Import Markdown, HTML and DRM-free MOBI / AZW3. Files are converted to EPUB locally and then use the existing reading, layout and annotation features. Nothing is fetched from the network; DRM-protected or unsupported files are rejected with a clear reason.\n\n**Companions**\n- Proactive illustrations are now chosen by how visual a passage is, with a per-chapter limit. No quota is spent when no image service is configured, and settings show today's voice and image use and failures.\n- When several companions comment, they see each other: they do not mark the same passage twice and sometimes add a line in the thread. A new “Let them talk” button lets companions take turns.\n- New per-book “Illustrations in the text” (More menu, off by default): generated pictures sit between paragraphs like a printed book, captioned as AI illustrations, without changing the source text or reading progress.\n\n**Stage mode**\n- Speakers with a reference look get a small portrait beside the name tag; generated illustrations appear at their line.\n- Audiobook voices: if a chapter has an audiobook, each line plays its recorded voice and auto-play waits for it to finish.\n- Narration rhythm (per sentence / merged / per paragraph), full-screen stage, warm and cold tints for narration, and a fix for lost dialogue colours in rich EPUBs.\n\n**Reading**\n- One-tap tap-zone presets (standard / full-screen turns / left-handed / up-down), six header and footer slots, and side margins down to zero.\n\nOfficial package: `mozhi-1.6.0-vc90.apk`, for Android 8.0 or later. Signed with the official release certificate for upgrades from existing official installations.\n",
+        "assets": [
+          {
+            "name": "mozhi-1.6.0-vc90.apk",
+            "size": 26581239,
+            "browserDownloadUrl": "https://github.com/ovo066/MoRead/releases/download/v1.6.0/mozhi-1.6.0-vc90.apk"
+          }
+        ]
+      },
+      "errors": [],
+      "fork": false,
+      "forkOf": null
+    },
+    {
       "id": "sanmu",
       "name": "三目阅读",
       "tag": "sanmu",
@@ -695,35 +724,6 @@
       "forkOf": null,
       "abandoned": "弃坑",
       "abandonedReason": "Release 与源码均超过半年未更新"
-    },
-    {
-      "id": "moread",
-      "name": "墨知 MoRead",
-      "tag": "moread",
-      "repo": "ovo066/MoRead",
-      "term": "legado-branch-moread",
-      "note": "原生 Android 本地小说阅读器 + AI 伴读。",
-      "stars": 136,
-      "sourceUpdatedAt": "2026-11-20T08:45:54Z",
-      "githubArchived": false,
-      "release": {
-        "name": "MoRead 1.6.0",
-        "tagName": "v1.6.0",
-        "prerelease": false,
-        "publishedAt": "2026-11-20T08:50:56Z",
-        "createdAt": "2026-11-20T08:24:36Z",
-        "body": "# MoRead · 墨知 1.6.0\n\n## 中文\n\n**导入**\n- 新增 Markdown、HTML 与无 DRM 的 MOBI / AZW3 导入：转成 EPUB 后沿用原有阅读、排版与批注能力，转换全程不联网；带 DRM 或暂不支持的文件会给出明确原因。\n\n**伴读**\n- 随读配图改为按段落画面感挑选，每章上限可设；生图服务未配置时不再空耗额度，设置页显示今日语音、插图用量与失败次数。\n- 多位伴读参与段评时互相看得见：不重复划同一段，偶尔在讨论里接一句；讨论串新增「大家聊聊」，几位伴读轮流各说一句。\n- 阅读菜单「更多」新增「插图排进正文」（按书开关，默认关）：已生成的插图像出版书那样排在段落之间，图注标明 AI 配图，不改变原文与阅读进度。\n\n**演出模式**\n- 说话人有定妆图时，名牌旁显示小像；已生成的插图演到那一句时出现。\n- 配音跟读：章节做过有声书时，演到哪句放哪句，自动播放等配音念完再走。\n- 旁白节奏（逐句 / 合句 / 整段）、全屏演出、旁白冷暖色，并修复精排书对白颜色丢失。\n\n**阅读**\n- 操作区新增一键预设（标准 / 全屏翻页 / 左手 / 上下）；页眉页脚改为左中右六个槽位；左右边距可调到 0。\n\n正式安装包：`mozhi-1.6.0-vc90.apk`，Android 8.0 及以上，使用正式发布证书，可覆盖安装已有正式版。\n\n## English\n\n**Import**\n- Import Markdown, HTML and DRM-free MOBI / AZW3. Files are converted to EPUB locally and then use the existing reading, layout and annotation features. Nothing is fetched from the network; DRM-protected or unsupported files are rejected with a clear reason.\n\n**Companions**\n- Proactive illustrations are now chosen by how visual a passage is, with a per-chapter limit. No quota is spent when no image service is configured, and settings show today's voice and image use and failures.\n- When several companions comment, they see each other: they do not mark the same passage twice and sometimes add a line in the thread. A new “Let them talk” button lets companions take turns.\n- New per-book “Illustrations in the text” (More menu, off by default): generated pictures sit between paragraphs like a printed book, captioned as AI illustrations, without changing the source text or reading progress.\n\n**Stage mode**\n- Speakers with a reference look get a small portrait beside the name tag; generated illustrations appear at their line.\n- Audiobook voices: if a chapter has an audiobook, each line plays its recorded voice and auto-play waits for it to finish.\n- Narration rhythm (per sentence / merged / per paragraph), full-screen stage, warm and cold tints for narration, and a fix for lost dialogue colours in rich EPUBs.\n\n**Reading**\n- One-tap tap-zone presets (standard / full-screen turns / left-handed / up-down), six header and footer slots, and side margins down to zero.\n\nOfficial package: `mozhi-1.6.0-vc90.apk`, for Android 8.0 or later. Signed with the official release certificate for upgrades from existing official installations.\n",
-        "assets": [
-          {
-            "name": "mozhi-1.6.0-vc90.apk",
-            "size": 26581239,
-            "browserDownloadUrl": "https://github.com/ovo066/MoRead/releases/download/v1.6.0/mozhi-1.6.0-vc90.apk"
-          }
-        ]
-      },
-      "errors": [],
-      "fork": false,
-      "forkOf": null
     },
     {
       "id": "mr",
@@ -776,7 +776,7 @@
       "repo": "GEd520/legados",
       "term": "legado-branch-max-cichen",
       "note": "独立仓库，有自己的 APK 发布。",
-      "stars": 87,
+      "stars": 89,
       "sourceUpdatedAt": "2026-11-23T10:47:55Z",
       "githubArchived": false,
       "release": {
@@ -1180,30 +1180,30 @@
       "upstreamUrl": "https://gitee.com/lyj09x/legado",
       "note": "墨水屏（E-ink）优化分支，分叉自 Sigma（legado-E）；源码与 APK 发布自 Gitee，GitHub 镜像 `legado-backup/eink` 作备份。",
       "stars": 8,
-      "sourceUpdatedAt": "2026-11-24T00:48:31+08:00",
+      "sourceUpdatedAt": "2026-11-24T19:50:02+08:00",
       "githubArchived": false,
       "release": {
-        "name": "阅读_E-ink_3.26.112401",
-        "tagName": "阅读_E-ink_3.26.112401",
+        "name": "阅读_E-ink_3.26.112419",
+        "tagName": "阅读_E-ink_3.26.112419",
         "prerelease": false,
-        "publishedAt": "2026-11-24T00:48:31+08:00",
-        "createdAt": "2026-11-24T00:48:31+08:00",
-        "body": "- 已修复微信续期\r\n- 已修复异常闪退\r\n- 已新增微信读书\r\n- 点击首页进度环\r\n- 已新增隐私模式\r\n- 可搜索输入密码\r\n- 当前时间为密码\r\n- 19:16就是1916\r\n- 已大量精简优化\r\n- 已压缩应用体积",
+        "publishedAt": "2026-11-24T19:50:02+08:00",
+        "createdAt": "2026-11-24T19:50:02+08:00",
+        "body": "- 已修复目录问题\r\n- 已修复微信续期\r\n- 已修复异常闪退\r\n- 已新增微信读书\r\n- 点击首页进度环\r\n- 已新增隐私模式\r\n- 可搜索输入密码\r\n- 当前时间为密码\r\n- 19:16就是1916\r\n- 已大量精简优化\r\n- 已压缩应用体积",
         "assets": [
           {
-            "name": "阅读_E-ink_3.26.112401.apk",
+            "name": "阅读_E-ink_3.26.112419.apk",
             "size": 8181200,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.112401/%E9%98%85%E8%AF%BB_E-ink_3.26.112401.apk"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/releases/download/%E9%98%85%E8%AF%BB_E-ink_3.26.112419/%E9%98%85%E8%AF%BB_E-ink_3.26.112419.apk"
           },
           {
-            "name": "阅读_E-ink_3.26.112401.zip",
+            "name": "阅读_E-ink_3.26.112419.zip",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.112401.zip"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.112419.zip"
           },
           {
-            "name": "阅读_E-ink_3.26.112401.tar.gz",
+            "name": "阅读_E-ink_3.26.112419.tar.gz",
             "size": null,
-            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.112401.tar.gz"
+            "browserDownloadUrl": "https://gitee.com/lyj09x/legado/archive/refs/tags/%E9%98%85%E8%AF%BB_E-ink_3.26.112419.tar.gz"
           }
         ]
       },
@@ -1237,7 +1237,7 @@
       "allowNoRelease": true,
       "note": "预备观察，未达收录标准，仅防跑路备份，不展示不计数。",
       "stars": 4,
-      "sourceUpdatedAt": "2026-11-23T16:28:14Z",
+      "sourceUpdatedAt": "2026-11-24T14:55:14Z",
       "githubArchived": false,
       "release": {
         "name": "1.0.9",
@@ -1249,17 +1249,17 @@
         "assets": [
           {
             "name": "app-arm64-release.apk",
-            "size": 30774566,
+            "size": 30779636,
             "browserDownloadUrl": "https://github.com/ReTyne/legado-Klys/releases/download/v1.0.9/app-arm64-release.apk"
           },
           {
             "name": "app-universal-release.apk",
-            "size": 54542507,
+            "size": 54559954,
             "browserDownloadUrl": "https://github.com/ReTyne/legado-Klys/releases/download/v1.0.9/app-universal-release.apk"
           },
           {
             "name": "legado-ios-unsigned.ipa",
-            "size": 21955912,
+            "size": 21947209,
             "browserDownloadUrl": "https://github.com/ReTyne/legado-Klys/releases/download/v1.0.9/legado-ios-unsigned.ipa"
           }
         ]
