@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T15:52:12.369Z",
+  "generatedAt": "2026-11-25T00:41:30.966Z",
   "branches": [
     {
       "id": "c",
@@ -44,7 +44,7 @@
           "name": "CCSSNE/legado",
           "repo": "CCSSNE/legado",
           "url": "https://github.com/CCSSNE/legado",
-          "stars": 72,
+          "stars": 73,
           "updatedAt": "2026-08-11T01:49:32Z"
         }
       ],
@@ -53,7 +53,7 @@
         "tag": "3.26.04271714"
       },
       "manualAbandoned": "上游仓库已删除，作者停止维护",
-      "stars": 47288,
+      "stars": 47294,
       "sourceUpdatedAt": "2026-05-27T08:41:54Z",
       "githubArchived": false,
       "release": {
@@ -85,7 +85,7 @@
       "tag": "md3",
       "repo": "HapeLee/legado-with-MD3",
       "term": "legado-branch-md3",
-      "stars": 7229,
+      "stars": 7237,
       "sourceUpdatedAt": "2026-11-24T13:31:29Z",
       "githubArchived": false,
       "release": {
@@ -148,7 +148,7 @@
       "tag": "plus",
       "repo": "Luoyacheng/legado-E",
       "term": "legado-branch-sigma",
-      "stars": 3160,
+      "stars": 3162,
       "sourceUpdatedAt": "2026-08-01T05:19:41Z",
       "githubArchived": false,
       "release": {
@@ -204,7 +204,7 @@
       "tag": "beta",
       "repo": "LegadoTeam/legado",
       "term": "legado-branch-main",
-      "stars": 2026,
+      "stars": 2027,
       "sourceUpdatedAt": "2026-11-23T15:07:01Z",
       "githubArchived": false,
       "release": {
@@ -281,7 +281,7 @@
       "repo": "Suml-1/Legado_Max",
       "term": "legado-branch-max-sum",
       "note": "独立发版，目前 MAX 家族最活跃的版本。",
-      "stars": 449,
+      "stars": 450,
       "sourceUpdatedAt": "2026-11-21T14:43:01Z",
       "githubArchived": false,
       "release": {
@@ -354,7 +354,7 @@
       "tag": "shutiao",
       "repo": "huajideshutiao/legado",
       "term": "legado-branch-shutiao",
-      "stars": 355,
+      "stars": 356,
       "sourceUpdatedAt": "2026-11-15T04:10:59Z",
       "githubArchived": false,
       "release": {
@@ -513,8 +513,8 @@
       "tag": "ng",
       "repo": "joestar817/legado_NG",
       "term": "legado-branch-ng",
-      "stars": 243,
-      "sourceUpdatedAt": "2026-11-24T14:44:49Z",
+      "stars": 245,
+      "sourceUpdatedAt": "2026-11-24T21:16:55Z",
       "githubArchived": false,
       "release": {
         "name": "legado_ng_3.26.111815",
@@ -586,40 +586,40 @@
       "term": "legado-branch-lightread",
       "note": "独立多平台应用，开源本地优先电子书阅读器，发布 Linux / macOS / Windows / 安卓安装包。",
       "stars": 141,
-      "sourceUpdatedAt": "2026-11-24T14:19:23Z",
+      "sourceUpdatedAt": "2026-11-24T20:54:26Z",
       "githubArchived": false,
       "release": {
-        "name": "v2.11.1",
-        "tagName": "app-v2.11.1",
+        "name": "v2.11.2",
+        "tagName": "app-v2.11.2",
         "prerelease": false,
-        "publishedAt": "2026-11-23T02:40:17Z",
-        "createdAt": "2026-11-23T02:38:59Z",
-        "body": "修复\n- 应用图标：app-v2.11.0 在 Android 上显示成了框架默认图标，现已恢复为轻阅图标。\n- 发版检查新增应用图标核对，图标不对的安装包无法发布。\n\n其余功能与 app-v2.11.0 相同（双语对照、听书离线回退与界面细节打磨）。\n\n验证\n- 已在 Android 真机上从 2.10.7 覆盖升级：桌面图标正确，藏书、阅读进度与阅读设置均保留，打开书籍正常。\n",
+        "publishedAt": "2026-11-24T20:46:20Z",
+        "createdAt": "2026-11-24T20:37:37Z",
+        "body": "新功能\n- 加密 PDF：设了打开密码的 PDF 可以照常导入，打开时输入密码即可阅读。输错会提示并清空重输；可选「在这台设备上记住密码」，密码只存在本机，不会同步。解锁后自动用第一页补上书架封面。\n- Android：可以在文件管理器里用轻阅直接打开书籍，或把书分享到轻阅；轻阅已在运行时也能接住。\n\n改进\n- 选文件导入时，azw / azw3 不再是灰色，可以直接选；「打开方式」列表里也有轻阅。\n- 给选中的书批量设置标签时，可以直接点选已有标签，也可以继续手动输入。\n\n修复\n- 港台常见的 Big5 编码 TXT 打开是乱码：现在自动识别 GBK 与 Big5。\n- Standard Ebooks 等精排 EPUB / AZW3 的书名页和徽标显示为坏图。\n- Markdown 书籍的书名改为取文件名，不再显示正文的第一个标题。\n- 没有 ComicInfo 的 CBZ / CBR 漫画，书名不再带「.cbz」扩展名。\n- 手册页「在网页上看」按钮的无障碍标签显示成了内部文案编号。\n\n验证\n- 已在 Android 真机上验证：各种格式样书的导入与打开，加密 PDF 输错提示、输对打开、记住密码后直接打开，解锁后书架显示封面。\n- 新增格式兼容测试：39 本公有领域与开放许可的测试书，覆盖常见电子书、漫画、DjVu 与各类 PDF，全部通过；以后每次发版前都要通过。\n",
         "assets": [
           {
-            "name": "LightRead_app-v2.11.1_android_arm64.apk",
-            "size": 145779856,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.1/LightRead_app-v2.11.1_android_arm64.apk"
+            "name": "LightRead_app-v2.11.2_android_arm64.apk",
+            "size": 145796488,
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.2/LightRead_app-v2.11.2_android_arm64.apk"
           },
           {
-            "name": "LightRead_app-v2.11.1_android_arm64.apk.build.json",
+            "name": "LightRead_app-v2.11.2_android_arm64.apk.build.json",
             "size": 163,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.1/LightRead_app-v2.11.1_android_arm64.apk.build.json"
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.2/LightRead_app-v2.11.2_android_arm64.apk.build.json"
           },
           {
-            "name": "LightRead_app-v2.11.1_android_arm64.apk.json",
+            "name": "LightRead_app-v2.11.2_android_arm64.apk.json",
             "size": 2047,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.1/LightRead_app-v2.11.1_android_arm64.apk.json"
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.2/LightRead_app-v2.11.2_android_arm64.apk.json"
           },
           {
-            "name": "LightRead_app-v2.11.1_android_arm64.apk.sha256",
+            "name": "LightRead_app-v2.11.2_android_arm64.apk.sha256",
             "size": 106,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.1/LightRead_app-v2.11.1_android_arm64.apk.sha256"
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.2/LightRead_app-v2.11.2_android_arm64.apk.sha256"
           },
           {
             "name": "SHA256SUMS",
             "size": 447,
-            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.1/SHA256SUMS"
+            "browserDownloadUrl": "https://github.com/yzfly/LightRead/releases/download/app-v2.11.2/SHA256SUMS"
           }
         ]
       },
